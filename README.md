@@ -27,7 +27,7 @@ Also we have strict messaging and naming standards. Please read *Git messages st
 
 ## Project description
 
-Twardowsky 2 is a hybrid-engine rocket with ability to carry payload in the form of cansat experiments. It is being developed by the Student's Space Association's Rocketry Division on Warsaw University of Technology.
+Twardowsky 2 is a hybrid-engine rocket with ability to carry payload in the form of cubesat experiments. It is being developed by the Student's Space Association's Rocketry Division on Warsaw University of Technology.
 
 ## Git messages standards
 
