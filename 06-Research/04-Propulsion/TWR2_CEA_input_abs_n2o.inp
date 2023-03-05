@@ -1,0 +1,15 @@
+      
+     prob           
+o/f=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17                                                                             
+hp                                                                                                                      
+p,bar=2,5,8,11,14,17,20,23,26,29,32,35,38,41,44,47                                                                      
+t,k=3000                                                                                                                
+      
+     reac           
+oxid=N2O wt=1 t,k=300                                                                                                   
+fuel=ABS wt=1 t,k=300 h,kj/mol=62.63 C 3.85 H 4.85 N 0.43                                                               
+      
+     outp           
+short plot t gam m                                                                                                      
+      
+     end            
