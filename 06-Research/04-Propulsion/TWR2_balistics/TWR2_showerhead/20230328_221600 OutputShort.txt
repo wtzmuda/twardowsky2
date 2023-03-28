@@ -1,0 +1,30 @@
+************************************************************************************** 
+ROCKET PROPULSION ANALYSIS TOOL SIMULATION OUTPUT SKA POLITECHNIKA WARSZAWSKA, 2020 
+		FILE GENERATED ON 28-Mar-2023 22:22:21 
+**************************************************************************************
+
+SIMULATION NAME: 
+
+INPUT DATA
+-----------  
+Fuel: 				 HTPB
+Fuel initial mass: 		3.61	 [kg]
+Oxidizer: 			 N2O
+Oxidizer initial mass: 		16.00	 [kg]
+Oxidizer initial temperature: 	300.0	 [K]
+Tank volume: 			0.023	 [m3]
+Orifices number: 		300.000	 [-]
+Orifices diameter: 		0.0006	 [m]
+Discharge coefficient: 		0.70	 [-]
+Nozzle throat diameter: 	0.045	 [m]
+
+OUTPUT DATA
+-----------  
+Simulation time: 		10.34	 [s]
+Mean Nozzle Exit Velocity: 	1991.7	 [m/s]
+Total Impulse: 			42827.6	 [Ns]
+Maximum Thrust: 		7707.3	 [N]
+Average Thrust: 		4140.3	 [N]
+Maximum chamber pressure: 	0	 [Pa]
+Maximum tank pressure: 		5886374	 [Pa]
+Specific Impulse: 		2409.8	 [m/s]

@@ -1,7 +1,7 @@
 function [Fuel_Input, Grain_Struct, Engine_Parameters, Ambient_Input, Simulation_Settings] = TWR_Input()
 
 Fuel_Input.name = 'HTPB';
-Fuel_Input.propellant_density = 930;        	        %Grain density [kg/m^3]
+Fuel_Input.propellant_density = 1115;        	        %Grain density [kg/m^3]
 Fuel_Input.filename_temperature_combustion_interp = 'InputFiles/Interpolants/ABS_tempComb.RPATinterp';       	        %Combustion temperature [K]
 Fuel_Input.filename_kappa_interp = 'InputFiles/Interpolants/ABS_kappa.RPATinterp';                               %Heat Capacity Ratio [-]
 Fuel_Input.filename_molar_mass_interp = 'InputFiles/Interpolants/ABS_molarMass.RPATinterp';                           %Molar mass of combustion products [g/mol]
@@ -24,16 +24,16 @@ Fuel_Input.different_layer_filename_molar_mass_interp = 'InputFiles/Interpolants
 
 Grain_Struct.max_burned_thickness = 0.12;  % Maksymalna dopuszczalna grubość warstwy spalonej
 Grain_Struct.fuel_initial_COM = 1;      % Początkowe położenie środka ciężkości ziarna
-Grain_Struct.initial_volume=0.003385;        % Początkowa objętość ziarna
+Grain_Struct.initial_volume=0.00327;        % Początkowa objętość ziarna
 
 grain_number = 1;
 Grain_Struct(grain_number).x_grain_base_wrt_nozzle_inlet = 0.04;
-Grain_Struct(grain_number).Grain_stl_filename = '/InputFiles/STL/multi_fin_6_5.stl';
+Grain_Struct(grain_number).Grain_stl_filename = '/InputFiles/STL/grain_twr2.stl';
 Grain_Struct(grain_number).Inhibition.top_inhibited = false;
 Grain_Struct(grain_number).Inhibition.bottom_inhibited = false;
 Grain_Struct(grain_number).Inhibition.outer_inhibited = true;
 Grain_Struct(grain_number).Inhibition.inner_inhibited = false;
-Grain_Struct(grain_number).geometry_type = 2;
+Grain_Struct(grain_number).geometry_type = 4;
 Grain_Struct(grain_number).period_instances = 16;
 Grain_Struct(grain_number).grain_reversed = false; 
 Grain_Struct(grain_number).slice_height = 0.225;
