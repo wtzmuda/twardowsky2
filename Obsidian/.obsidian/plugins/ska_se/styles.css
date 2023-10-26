@@ -1,0 +1,144 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
+}
+
+.requirement-error {
+	text-decoration: wavy underline red 1px;
+	text-underline-offset: 0.2em;
+}
+.requirement-error:hover {
+	cursor: pointer;
+}
+
+.conflict-popup {
+	position: absolute;
+	display: none;
+	background-color: rgb(43, 43, 43);
+	width: 500px;
+	min-height: 300px;
+	pointer-events: none;
+	z-index: 10;
+}
+
+.conflict-popup-table {
+	width: 100%;
+	min-height: 300px;
+}
+
+.accordion.requirements-table {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+
+.accordion.requirements-table {
+	background-color: transparent;
+	box-shadow: none;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+.requirement-panel {
+	transition: all 0.2s ease-in-out;
+	overflow: hidden;
+	max-height: 0px;
+}
+
+.requirement-panel {
+	max-height: 0px;
+	display: block;
+}
+.requirement-row {
+	position: relative;
+	/* clip-path: inset(0 0 0 0); top right bottom left */
+}
+
+.add-requirement-btn {
+	width: 50px;
+	height: 100%;
+	text-align: center;
+	font-size: 26px !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-top: 4px;
+	z-index: 5;
+}
+.add-requirement-btn:hover {
+	cursor: pointer;
+	font-weight: 900;
+	background-color: rgb(43, 43, 43);
+}
+
+.modal-bcg {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.add-requirement-modal-content {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(43, 43, 43);
+	width: 70%;
+	height: 300px;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.requirement-modal-close {
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	background-color: rgb(32, 32, 32);
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 2px;
+	position: absolute;
+}
+
+.requirement-modal-close:hover {
+	background-color: rgb(29, 29, 29);
+}
+
+.add-requirement-modal-input {
+	width: 100%;
+	height: 125px;
+	margin-top: 30px;
+}
+
+#requirement-description {
+	width: 100%;
+	height: 100%;
+	resize: none;
+	font-size: 18px;
+	background-color: rgb(32, 32, 32);
+	padding: 15px;
+}
