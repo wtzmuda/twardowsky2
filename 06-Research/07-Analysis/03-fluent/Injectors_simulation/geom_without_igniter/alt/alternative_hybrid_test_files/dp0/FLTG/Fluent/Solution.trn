@@ -1,0 +1,48 @@
+Transcript Start Time:  18:28:16, 26 Oct 2023 Œrodkowoeuropejski czas letni 
+Current Directory: "C:\Users\Piotr\Documents\GitHub\twardowsky2\06-Research\07-Analysis\03-fluent\Injectors_simulation\geom_without_igniter\alt"
+
+Build Time: Nov 29 2021 12:14:46 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v221/fluent/ntbin/win64/fluent.exe
+
+------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                  
+------------------------------------------------------------------------------------------
+n2    DESKTOP-S1PUBM6  3/12  Windows-x64  7492   AMD Ryzen 5 5600H with Radeon Graphics  
+n1    DESKTOP-S1PUBM6  2/12  Windows-x64  7316   AMD Ryzen 5 5600H with Radeon Graphics  
+n0*   DESKTOP-S1PUBM6  1/12  Windows-x64  17340  AMD Ryzen 5 5600H with Radeon Graphics  
+host  DESKTOP-S1PUBM6        Windows-x64  7532   AMD Ryzen 5 5600H with Radeon Graphics  
+
+MPI Option Selected: intel
+Selected system interconnect: default
+------------------------------------------------------------------------------------------
+
+Cortex Process ID: 708 
+License Server Path: C:\Program Files\ANSYS Inc\Shared Files\licensing\license_files\ansyslmd.lic 
+Reading "C:\Users\Piotr\Documents\GitHub\twardowsky2\06-Research\07-Analysis\03-fluent\Injectors_simulation\geom_without_igniter\alt\alternative_hybrid_test_files\dp0\FLTG\Fluent\FLTG.6.msh.h5" ...
+3D mesh
+nodes: 532242
+edges: 5210
+faces: 780524
+cells: 162029
+reading 4 node zones
+reading 27 edge zones
+reading 11 face zones
+reading 1 cell zones
+generating pointers...done.
+extracting boundary entities...
+ 72387 boundary nodes.
+ 21290 boundary faces.
+ 10 boundary face zones.
+done.
+generating cells...done.
+analyzing boundary connectivity...done.
+Fast-loading "C:\PROGRA~1\ANSYSI~1\v221\fluent\fluent22.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+Writing "C:\Users\Piotr\Documents\GitHub\twardowsky2\06-Research\07-Analysis\03-fluent\Injectors_simulation\geom_without_igniter\alt\alternative_hybrid_test_files\dp0\FLTG\Fluent\FLTG.6.msh.h5" ...
+writing 4 node zones
+writing 27 edge zones 
+writing 11 face zones 
+writing 2 face-pairs 
+writing 1 cell zones 
+done.Transcript Stop Time:  18:28:40, 26 Oct 2023 Œrodkowoeuropejski czas letni 
+Total Transcript Time: 0 Minute 24 Second.

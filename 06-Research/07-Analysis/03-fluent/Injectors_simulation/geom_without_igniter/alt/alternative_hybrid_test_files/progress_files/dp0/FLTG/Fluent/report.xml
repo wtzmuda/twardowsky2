@@ -105,55 +105,16 @@ Boundary Conditions
 
       name                  id     type              
       --------------------------------------------
-      injectors             67     wall              
-      walls                 71     wall              
-      outlet                70     outflow           
-      inlet_oxidizer        69     mass-flow-inlet   
-      inlet_grain           68     wall              
       component1-solid1:1   66     wall              
-      periodic_1:1388       1388   periodic          
+      inlet_grain           68     wall              
+      inlet_oxidizer        69     mass-flow-inlet   
+      outlet                70     outflow           
+      walls                 71     wall              
+      injectors             67     wall              
+      periodic_1:1224       1224   periodic          
       periodic_1            72     periodic          
 
    Setup Conditions
-
-      injectors
-
-         Condition                  Value             
-         ------------------------------------------
-         Thermal BC Type            Heat Flux         
-         Wall Motion                Stationary Wall   
-         Shear Boundary Condition   No Slip           
-         Wall Surface Roughness     0                 
-
-      walls
-
-         Condition                  Value             
-         ------------------------------------------
-         Thermal BC Type            Heat Flux         
-         Wall Motion                Stationary Wall   
-         Shear Boundary Condition   No Slip           
-         Wall Surface Roughness     0                 
-
-      outlet
-
-         Condition   Value   
-         -----------------
-
-      inlet_oxidizer
-
-         Condition                        Value                
-         ---------------------------------------------------
-         Mass Flow Rate [kg/s]            3.52                 
-         Direction Specification Method   Normal to Boundary   
-
-      inlet_grain
-
-         Condition                  Value             
-         ------------------------------------------
-         Thermal BC Type            Heat Flux         
-         Wall Motion                Stationary Wall   
-         Shear Boundary Condition   No Slip           
-         Wall Surface Roughness     0                 
 
       component1-solid1:1
 
@@ -164,7 +125,47 @@ Boundary Conditions
          Shear Boundary Condition   No Slip           
          Wall Surface Roughness     0                 
 
-      periodic_1:1388
+      inlet_grain
+
+         Condition                  Value             
+         ------------------------------------------
+         Thermal BC Type            Heat Flux         
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
+         Wall Surface Roughness     0                 
+
+      inlet_oxidizer
+
+         Condition                                Value                
+         -----------------------------------------------------------
+         Mass Flow Rate [kg/s]                    3.52                 
+         Supersonic/Initial Gauge Pressure [Pa]   5870000              
+         Direction Specification Method           Normal to Boundary   
+
+      outlet
+
+         Condition   Value   
+         -----------------
+
+      walls
+
+         Condition                  Value             
+         ------------------------------------------
+         Thermal BC Type            Heat Flux         
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
+         Wall Surface Roughness     0                 
+
+      injectors
+
+         Condition                  Value             
+         ------------------------------------------
+         Thermal BC Type            Heat Flux         
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
+         Wall Surface Roughness     0                 
+
+      periodic_1:1224
 
          Condition                Value   
          ------------------------------
