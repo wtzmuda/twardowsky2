@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Interfacing with": "multitext",
+    "System": "text",
+    "Alias": "text",
+    "Connections": "multitext",
+    "Class": "multitext",
+    "Status": "text"
+  }
+}
