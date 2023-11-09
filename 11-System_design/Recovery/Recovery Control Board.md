@@ -1,0 +1,33 @@
+---
+Class:
+  - System
+Interfacing with: []
+System: TWR2.RECOVERY
+ID: TWR2.RECOVERY.RECOVERY_CONTROL_BOARD
+Subsystems:
+---
+
+Mass: (Mass:: 0)
+
+## Description
+
+This is an example description
+
+```stlrendera
+models/Waddles_wm.stl
+```
+
+## Requirements
+
+## Tests
+
+## Interfaces
+| Interface Name | Connecting To                |
+| -------------- | ---------------------------- |
+| None⚠️         | [[Recovery System]]          |
+| None⚠️         | [[Nosecone Ejection System]] |
+
+
+# Documents
+
+# Order History

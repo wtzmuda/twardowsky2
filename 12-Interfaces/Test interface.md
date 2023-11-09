@@ -1,0 +1,5 @@
+---
+Connections: [TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM <=> TWR2.RECOVERY.RECOVERY_SYSTEM]
+Class:
+  - Interface
+---
