@@ -180,7 +180,8 @@ export async function requirementsTable2(file: TFile) {
 
 	const tableHeaders = ["Description", "Source"];
 
-	const tableMarkdown = dv.markdownTable(tableHeaders, tableValues);
+	const tableMarkdown =
+		"\n" + dv.markdownTable(tableHeaders, tableValues) + "\n";
 	return tableMarkdown ?? "";
 }
 
