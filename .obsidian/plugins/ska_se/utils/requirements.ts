@@ -129,7 +129,7 @@ export async function testsTable(file: TFile) {
 			return test.System && test.System.path.includes(file.path);
 		}).values;
 
-	if (tests.length === 0) return;
+	if (tests.length === 0) return "";
 
 	//modify the tests list. 1. Find position of the header "System Tests". 2. insert the tests list after the header
 	const testsSection = cache?.headings?.find(
