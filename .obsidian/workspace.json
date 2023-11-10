@@ -15,27 +15,15 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 580.5080862278681,
-                  "y": -115.47442651396958,
+                  "x": 803.6434400291754,
+                  "y": -129.5671834378584,
                   "zoom": -0.2319194635393531
                 }
               }
             }
           },
           {
-            "id": "98b061f554db461a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28d4a419f62b6a0f",
+            "id": "e5c808ef15acbd3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,15 +164,15 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "98b061f554db461a",
+  "active": "e5c808ef15acbd3f",
   "lastOpenFiles": [
-    "11-System_design/Recovery/Recovery Control Board.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/System Diagram.canvas",
-    "11-System_design/Recovery/Recovery.md",
-    "11-System_design/Recovery/Recovery System.md",
-    "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Requirements/New Requirement.md",
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Recovery/Recovery System.md",
+    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
     "11-System_design/Payload.md",
     "11-System_design/Payload container.md",
     "README.md",
