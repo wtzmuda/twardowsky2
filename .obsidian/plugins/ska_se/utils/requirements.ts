@@ -110,8 +110,10 @@ export async function interfacesTable(file: TFile) {
 	}
 
 	const tableMarkdown = render.length
-		? dv.markdownTable(["Interface Name", "Connecting To"], render)
-		: null;
+		? "\n" +
+		  dv.markdownTable(["Interface Name", "Connecting To"], render) +
+		  "\n"
+		: "";
 	return tableMarkdown;
 }
 
@@ -138,16 +140,19 @@ export async function testsTable(file: TFile) {
 			section.position.start.line === testsSection?.position.start.line
 	);
 
-	const listData = dv.markdownList(
-		tests.map(
-			(test: any) =>
-				`[[${test.file.path}|${test.file.name}]] ${
-					test.Status === "success" ? "\t✅" : "\t❌"
-				}`
-		)
-	);
+	const listData =
+		"\n" +
+		dv.markdownList(
+			tests.map(
+				(test: any) =>
+					`[[${test.file.path}|${test.file.name}]] ${
+						test.Status === "success" ? "\t✅" : "\t❌"
+					}`
+			)
+		) +
+		"\n";
 
-	return listData;
+	return listData ?? "";
 }
 
 export async function requirementsTable2(file: TFile) {
