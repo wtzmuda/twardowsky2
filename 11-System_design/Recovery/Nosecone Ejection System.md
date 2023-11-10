@@ -18,8 +18,6 @@ models/Waddles_wm.stl
 ```
 
 ## Requirements
-
-
 ## Tests
 
 ## Interfaces
@@ -27,6 +25,7 @@ models/Waddles_wm.stl
 | ------------------ | -------------------------- |
 | [[Test interface]] | [[Recovery System]]        |
 | None⚠️             | [[Recovery Control Board]] |
+
 
 
 # Order History

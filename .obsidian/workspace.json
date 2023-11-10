@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "e5c808ef15acbd3f",
+            "id": "6537fa48783f2276",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,13 +164,13 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "e5c808ef15acbd3f",
+  "active": "6537fa48783f2276",
   "lastOpenFiles": [
-    "11-System_design/Recovery/Nosecone Ejection System.md",
-    "11-System_design/System Diagram.canvas",
-    "11-System_design/Requirements/New Requirement.md",
-    "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Recovery System.md",
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
+    "11-System_design/Requirements/New Requirement.md",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
     "11-System_design/Payload.md",
