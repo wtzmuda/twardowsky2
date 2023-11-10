@@ -11,6 +11,7 @@ type AddRequirementArgs = {
 
 export async function addRequirement(args: AddRequirementArgs) {
 	const app = pluginHandler.app;
+	const { ska_se } = pluginHandler.getPlugins();
 
 	const requirementTemplate = await readFile(
 		app.vault.adapter.getBasePath() +
@@ -24,11 +25,20 @@ export async function addRequirement(args: AddRequirementArgs) {
 		.replace(/%description%/g, args.description)
 		.replace(/%source%/g, args.source);
 
+	if (!args.id) {
+		args.id = "New Requirement";
+	}
+
 	if (args.id) {
 		data = data.replace(/%id%/g, args.id.toUpperCase().replace(/ /g, "_"));
 	}
 
-	return await app.vault.create("Requirements/" + args.id + ".md", data);
+	const rootPath = ska_se.settings.system_design_root_folder;
+
+	return await app.vault.create(
+		rootPath + "/Requirements/" + args.id + ".md",
+		data
+	);
 }
 
 export async function addComponent({
