@@ -162,7 +162,7 @@ export async function requirementsTable2(file: TFile) {
 			return req.System && req.System == cache?.frontmatter?.ID;
 		}).values;
 
-	if (thisRequirements.length === 0) return;
+	if (thisRequirements.length === 0) return "";
 
 	// extract the requirements data from the thisRequirements list
 

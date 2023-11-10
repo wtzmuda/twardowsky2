@@ -23,7 +23,19 @@
             }
           },
           {
-            "id": "93131eb52033dab7",
+            "id": "98b061f554db461a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28d4a419f62b6a0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,24 +48,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "72fe1ac5ba6ed912",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b3b3cfd308eaab0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -182,20 +176,21 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "93131eb52033dab7",
+  "active": "98b061f554db461a",
   "lastOpenFiles": [
+    "11-System_design/System Diagram.canvas",
+    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
-    "11-System_design/Recovery/Recovery System.md",
+    "11-System_design/Requirements/New Requirement.md",
     "11-System_design/Payload.md",
     "11-System_design/Payload container.md",
     "README.md",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
     "69-Obsidian/File index template.md",
     "12-Interfaces/Test interface.md",
-    "11-System_design/Recovery/Recovery.md",
     "11-System_design/Propulsion/Propulsion.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.md",
@@ -222,7 +217,6 @@
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.36 .md",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.32 .md",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.30 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.3 .md",
     "11-System_design/Requirements",
     "11-System_design/Recovery",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent",
