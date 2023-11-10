@@ -62,6 +62,7 @@ export async function insertMarkdownUnderHeading(
 	offset: number[] = [],
 	offsetLine: number[] = []
 ): Promise<number[][]> {
+	if (!markdown) markdown = "";
 	const app = pluginHandler.app;
 
 	const { metadataCache, vault } = app;
@@ -97,14 +98,12 @@ export async function insertMarkdownUnderHeading(
 		// put the data directly under the heading
 		text =
 			text.slice(0, heading.position.end.offset + totalOffset) +
-			"\n" +
 			markdown +
 			text.slice(heading.position.end.offset + totalOffset);
 	} else {
 		// remove the data in this section and put the new data under the heading
 		text =
 			text.slice(0, heading.position.end.offset + totalOffset) +
-			"\n" +
 			markdown +
 			text.slice(
 				sections[hIdx + 1].position.end.offset + 1 + totalOffset
