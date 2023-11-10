@@ -22,10 +22,10 @@ models/Waddles_wm.stl
 ## Tests
 
 ## Interfaces
-| Interface Name | Connecting To                |
-| -------------- | ---------------------------- |
-| None⚠️         | [[Recovery System]]          |
-| None⚠️         | [[Nosecone Ejection System]] |
+| Interface Name     | Connecting To                |
+| ------------------ | ---------------------------- |
+| None⚠️             | [[Nosecone Ejection System]] |
+| [[Test interface]] | [[Recovery System]]          |
 
 
 # Documents

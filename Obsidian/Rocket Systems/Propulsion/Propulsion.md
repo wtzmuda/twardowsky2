@@ -9,7 +9,7 @@ aliases:
 # Propulsion sub system
 
 
-Mass:: NaNNaNundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined
+Mass:: 0
 
 This is the desc of the propulsion
 ## Requirements 

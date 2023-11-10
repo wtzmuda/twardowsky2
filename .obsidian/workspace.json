@@ -11,8 +11,15 @@
             "id": "7613e46db4c79045",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 670.5253165270266,
+                  "y": -143.33722724562392,
+                  "zoom": -0.02191946353935293
+                }
+              }
             }
           }
         ]
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,18 +141,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "ska-se-obsidian-plugin:SKA SE": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "f2738213849d3a1e",
+  "active": "7613e46db4c79045",
   "lastOpenFiles": [
+    "11-System_design/Payload container.md",
+    "11-System_design/Payload.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Recovery/Recovery System.md",
+    "11-System_design/System Diagram.canvas",
+    "README.md",
+    "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
+    "69-Obsidian/File index template.md",
+    "12-Interfaces/Test interface.md",
+    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/Propulsion/Propulsion.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
@@ -159,7 +180,6 @@
     "69-Obsidian/Excalidraw",
     "69-Obsidian/assets",
     "69-Obsidian",
-    "12-Interfaces/Test interface.md",
     "12-Interfaces/in.elko.md",
     "12-Interfaces",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41 .md",
@@ -172,20 +192,9 @@
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.30 .md",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.3 .md",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.29 ⚠️.md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.28 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.27 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.2 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.19 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.18 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.17 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.16 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.15 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.1 .md",
     "11-System_design/Requirements",
     "11-System_design/Recovery",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors",
-    "11-System_design/System Diagram.canvas",
     "Requirements.canvas",
     "Rocket Systems/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Untitled Diagram.svg",
     "Functional Diagram.canvas",

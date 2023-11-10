@@ -274,7 +274,6 @@ export default class MyPlugin extends Plugin {
 				thisFile.path.includes(this.settings.system_design_root_folder)
 			) {
 				this.app.workspace.onLayoutReady(() => {
-					console.log("handling system");
 					handleSystem(thisFile);
 				});
 			}
@@ -549,6 +548,34 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 
 async function handleSystem(file: TFile) {
 	if (!file) return;
+
+	const { frontmatter } = pluginHandler.getPlugins();
+	const system = app.metadataCache.getFileCache(file)?.frontmatter?.System;
+	console.log(
+		file,
+		system +
+			"." +
+			file.basename
+				.replace(/[^\w.,\s]/g, "")
+				.toUpperCase()
+				.trim()
+				.replace(/ /g, "_")
+	);
+	await frontmatter.postValues(file, [
+		{
+			name: "ID",
+			payload: {
+				value:
+					system +
+					"." +
+					file.basename
+						.replace(/[^\w.,\s]/g, "")
+						.toUpperCase()
+						.trim()
+						.replace(/ /g, "_"),
+			},
+		},
+	]);
 
 	let mk = await requirementsTable2(file);
 	let [offset, offsetLine] = await insertMarkdownUnderHeading(

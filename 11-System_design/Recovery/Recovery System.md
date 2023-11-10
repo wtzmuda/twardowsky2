@@ -25,7 +25,7 @@ models/Waddles_wm.stl
 | Interface Name     | Connecting To                |
 | ------------------ | ---------------------------- |
 | [[Test interface]] | [[Nosecone Ejection System]] |
-| None⚠️             | [[Recovery Control Board]]   |
+| [[Test interface]] | [[Recovery Control Board]]   |
 
 
 # Documents
