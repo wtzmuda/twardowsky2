@@ -11,14 +11,11 @@
             "id": "7613e46db4c79045",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 670.5253165270266,
-                  "y": -143.33722724562392,
-                  "zoom": -0.02191946353935293
-                }
+                "file": "11-System_design/Recovery/Recovery System.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Recovery/Recovery System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Recovery/Recovery System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "11-System_design/Recovery/Recovery System.md"
               }
             }
           }
@@ -153,12 +150,12 @@
   },
   "active": "7613e46db4c79045",
   "lastOpenFiles": [
+    "11-System_design/System Diagram.canvas",
     "11-System_design/Payload container.md",
     "11-System_design/Payload.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Recovery System.md",
-    "11-System_design/System Diagram.canvas",
     "README.md",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
     "69-Obsidian/File index template.md",
