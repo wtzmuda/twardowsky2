@@ -577,28 +577,38 @@ async function handleSystem(file: TFile) {
 		},
 	]);
 
-	let mk = await requirementsTable2(file);
-	let [offset, offsetLine] = await insertMarkdownUnderHeading(
-		file,
-		"Requirements",
-		mk
-	);
-	mk = await testsTable(file);
-	[offset, offsetLine] = await insertMarkdownUnderHeading(
-		file,
-		"Tests",
-		mk,
-		offset,
-		offsetLine
-	);
-	mk = await interfacesTable(file);
-	await insertMarkdownUnderHeading(
-		file,
-		"Interfaces",
-		mk,
-		offset,
-		offsetLine
-	);
+	let index = 0;
+
+	async function resolveHeadingComponent(r_file: TFile) {
+		if (r_file !== file) return;
+
+		console.log("resolving heading component", index);
+
+		switch (index) {
+			case 0:
+				const rtmk = await requirementsTable2(file);
+				await insertMarkdownUnderHeading(file, "Requirements", rtmk);
+				break;
+			case 1:
+				const ttmk = await testsTable(file);
+				await insertMarkdownUnderHeading(file, "Tests", ttmk);
+				break;
+
+			case 2:
+				const itmk = await interfacesTable(file);
+				await insertMarkdownUnderHeading(file, "Interfaces", itmk);
+				break;
+
+			default:
+				break;
+		}
+		index++;
+
+		if (index >= 2)
+			app.metadataCache.off("resolve", resolveHeadingComponent);
+	}
+
+	app.metadataCache.on("resolve", resolveHeadingComponent);
 }
 
 async function handleRequirement(file: TFile, app: App) {
