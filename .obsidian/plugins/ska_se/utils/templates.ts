@@ -90,7 +90,7 @@ export async function addToSystemDiagram({
 
 	dataJson.nodes.push({
 		type: isComponent ? "text" : "group",
-		id: Math.random().toString(36).substring(7),
+		id: Math.random().toString(36).substring(16),
 		file: file.path,
 		x: Number(-canvasTranslate[0]) - 150,
 		y: Number(-canvasTranslate[1]) - 100,
