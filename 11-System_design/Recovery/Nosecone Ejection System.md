@@ -22,7 +22,6 @@ models/Waddles_wm.stl
 ## Tests
 
 ## Interfaces
-
 | Interface Name     | Connecting To              |
 | ------------------ | -------------------------- |
 | [[Test interface]] | [[Recovery System]]        |
