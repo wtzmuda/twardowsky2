@@ -62,8 +62,6 @@ export async function insertMarkdownUnderHeading(
 	offset: number[] = [],
 	offsetLine: number[] = []
 ): Promise<number[][]> {
-	if (!markdown) return [offset, offsetLine];
-
 	const app = pluginHandler.app;
 
 	const { metadataCache, vault } = app;

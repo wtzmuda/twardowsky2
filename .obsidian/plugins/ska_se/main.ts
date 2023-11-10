@@ -28,8 +28,6 @@ import {
 import {
 	addEmbed,
 	compareRequirements,
-	showConflict,
-	requirementsTable,
 	testsTable,
 	requirementsTable2,
 	interfacesTable,
