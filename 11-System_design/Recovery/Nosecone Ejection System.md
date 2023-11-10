@@ -18,10 +18,6 @@ models/Waddles_wm.stl
 ```
 
 ## Requirements
-| Description | Source                 |
-| ----------- | ---------------------- |
-|             | [[New Requirement.md]] |
-
 
 
 ## Tests
