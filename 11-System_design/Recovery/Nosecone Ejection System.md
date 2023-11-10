@@ -18,6 +18,10 @@ models/Waddles_wm.stl
 ```
 
 ## Requirements
+| Description      | Source                        |
+| ---------------- | ----------------------------- |
+| Some description | [[REQ.TWR2.RECOVERY.2137.md]] |
+
 
 ## Tests
 
@@ -26,13 +30,6 @@ models/Waddles_wm.stl
 | ------------------ | -------------------------- |
 | [[Test interface]] | [[Recovery System]]        |
 | None⚠️             | [[Recovery Control Board]] |
-
-# Documents
-
-- Technical Specification Document for TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM
-- AS9100 Compliance Report
-- Interface Design Document for Recovery Control Board Integration
-- Nose Cone Ejection System Deployment Test Report
 
 # Order History
 
