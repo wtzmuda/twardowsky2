@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"type":"group","id":"","file":"11-System_design/Recovery/Recovery.md","x":280,"y":-520,"width":760,"height":660,"label":"Recovery"},
+		{"type":"group","id":"dnalks4askndaw9q","file":"11-System_design/Recovery/Recovery.md","x":280,"y":-520,"width":760,"height":660,"label":"Recovery"},
 		{"type":"group","id":"0ln97o","file":"11-System_design/Payload.md","x":280,"y":240,"width":760,"height":560,"label":"Payload"},
 		{"id":"2c2bfee34c8b5476","type":"group","file":"11-System_design/Recovery/Recovery System.md","x":360,"y":-140,"width":240,"height":200,"label":"Recovery System"},
 		{"id":"93b5dfaa6dba03c8","type":"group","file":"11-System_design/Recovery/Recovery Control Board.md","x":340,"y":-420,"width":280,"height":120,"label":"Recovery Control Board"},
