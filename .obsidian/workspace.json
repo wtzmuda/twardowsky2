@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Recovery/Recovery Control Board.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Recovery/Recovery Control Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Recovery/Recovery Control Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
+                "file": "11-System_design/Recovery/Recovery Control Board.md"
               }
             }
           }
@@ -166,8 +166,8 @@
   },
   "active": "e5c808ef15acbd3f",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Nosecone Ejection System.md",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/New Requirement.md",
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Recovery System.md",

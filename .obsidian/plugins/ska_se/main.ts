@@ -604,7 +604,7 @@ async function handleSystem(file: TFile) {
 		}
 		index++;
 
-		if (index >= 2)
+		if (index > 2)
 			app.metadataCache.off("resolve", resolveHeadingComponent);
 	}
 
