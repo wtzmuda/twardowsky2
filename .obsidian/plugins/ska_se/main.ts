@@ -196,7 +196,9 @@ export default class MyPlugin extends Plugin {
 				});
 
 				// open the new file
-				app.workspace.getLeaf(true).openFile(newRequirement);
+				app.workspace
+					.createLeafBySplit(app.workspace.getLeaf(false))
+					.openFile(newRequirement);
 			},
 		});
 
