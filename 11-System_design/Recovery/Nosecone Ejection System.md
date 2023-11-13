@@ -25,10 +25,7 @@ models/Waddles_wm.stl
 | ------------------ | -------------------------- |
 | [[Test interface]] | [[Recovery System]]        |
 | None⚠️             | [[Recovery Control Board]] |
-
-
-
-
+# Documents
 # Order History
 
 - Initial Order: [Date], [Supplier], [Quantity], [Unit Price]
