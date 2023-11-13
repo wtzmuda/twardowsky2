@@ -31,4 +31,3 @@ models/Waddles_wm.stl
 - Initial Order: [Date], [Supplier], [Quantity], [Unit Price]
 - Reorder: [Date], [Supplier], [Quantity], [Unit Price]
 - Last Purchase: [Date], [Supplier], [Quantity], [Unit Price]
-
