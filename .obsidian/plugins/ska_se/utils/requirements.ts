@@ -147,8 +147,7 @@ export async function testsTable(file: TFile) {
 						test.Status === "success" ? "\t✅" : "\t❌"
 					}`
 			)
-		) +
-		"\n";
+		);
 
 	return listData ?? "";
 }
@@ -183,8 +182,7 @@ export async function requirementsTable2(file: TFile) {
 
 	const tableHeaders = ["Description", "Source"];
 
-	const tableMarkdown =
-		"\n" + dv.markdownTable(tableHeaders, tableValues) + "\n";
+	const tableMarkdown = "\n" + dv.markdownTable(tableHeaders, tableValues);
 	return tableMarkdown ?? "";
 }
 
