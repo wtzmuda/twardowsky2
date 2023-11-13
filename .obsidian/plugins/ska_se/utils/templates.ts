@@ -26,7 +26,12 @@ export async function addRequirement(args: AddRequirementArgs) {
 		.replace(/%source%/g, args.source);
 
 	if (!args.id) {
-		args.id = "New Requirement";
+		const num_equirements = app.vault
+			.getFiles()
+			.filter((file) =>
+				file.basename.startsWith(`REQ.${args.system}.`)
+			).length;
+		args.id = `REQ.${args.system}.${num_equirements + 1}`;
 	}
 
 	if (args.id) {
