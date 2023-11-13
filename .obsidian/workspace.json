@@ -36,6 +36,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "0bb472aeccabc417",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2c886859d71c226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Requirements/New Requirement.md"
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md"
               }
             }
           }
@@ -162,13 +182,14 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "f2738213849d3a1e",
+  "active": "f2c886859d71c226",
   "lastOpenFiles": [
     "11-System_design/Recovery/Nosecone Ejection System.md",
+    "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/New Requirement.md",
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Recovery System.md",
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
     "11-System_design/Payload.md",
