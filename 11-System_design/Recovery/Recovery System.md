@@ -26,10 +26,6 @@ models/Waddles_wm.stl
 | ------------------ | ---------------------------- |
 | [[Test interface]] | [[Nosecone Ejection System]] |
 | [[Test interface]] | [[Recovery Control Board]]   |
-
-
-
-
 # Documents
 
 # Element's History
