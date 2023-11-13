@@ -110,9 +110,7 @@ export async function interfacesTable(file: TFile) {
 	}
 
 	const tableMarkdown = render.length
-		? "\n" +
-		  dv.markdownTable(["Interface Name", "Connecting To"], render) +
-		  "\n"
+		? "\n" + dv.markdownTable(["Interface Name", "Connecting To"], render)
 		: "";
 	return tableMarkdown;
 }
