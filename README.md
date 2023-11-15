@@ -27,7 +27,7 @@ Also we have strict messaging and naming standards. Please read *Git messages st
 
 ## Project description
 
-Twardowsky 2 is a hybrid-engine rocket with ability to carry payload in the form of cansat experiments. It is being developed by the Student's Space Association's Rocketry Division on Warsaw University of Technology.
+Twardowsky 2 is a hybrid-engine rocket with ability to carry payload in the form of cubesat experiments. It is being developed by the Student's Space Association's Rocketry Division on Warsaw University of Technology.
 
 ## Git messages standards
 
@@ -54,6 +54,7 @@ Below are listed possible tags with it's description:
 * **[AVI]** - Avionics (I know seems kinda redundant since we have NSC but there are SE aspects that could concern only Avionics)
 * **[CTS]** - COTS/standardized elements changes
 * **[MNG]** - Management / organizational
+* **[DOC]** - Documentation
 * **[SYS]** - Systems engineering
 * **[OTH]** - doesn't fit any of the above (might suggest that there's need for new tag)
 
