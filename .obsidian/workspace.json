@@ -235,8 +235,10 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "36807d80af970481",
+  "active": "f2738213849d3a1e",
   "lastOpenFiles": [
+    "01-Model/99-Archive/Nowy Dokument tekstowy.html",
+    "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
     "11-System_design/System Diagram.canvas",
     "README.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
@@ -278,7 +280,6 @@
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41 .md",
     "11-System_design/Requirements",
     "11-System_design/Recovery",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent",
     "Requirements.canvas",
     "Rocket Systems/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Untitled Diagram.svg",
     "Functional Diagram.canvas",
