@@ -8,6 +8,7 @@
     "Alias": "text",
     "Connections": "multitext",
     "Class": "multitext",
-    "Status": "text"
+    "Status": "text",
+    "Type": "multitext"
   }
 }
