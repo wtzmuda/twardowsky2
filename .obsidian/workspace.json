@@ -6,6 +6,7 @@
       {
         "id": "61b65807861cd85e",
         "type": "tabs",
+        "dimension": 65.56671449067431,
         "children": [
           {
             "id": "7613e46db4c79045",
@@ -30,15 +31,58 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 752.5239921103316,
-                  "y": -177.27914203239396,
-                  "zoom": 0.08808053646064674
+                  "x": 711.5756132787565,
+                  "y": -75.16165989578997,
+                  "zoom": -0.17500000000000004
                 }
+              }
+            }
+          },
+          {
+            "id": "95eb07a101d07ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8b7a50b1158cafe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-System_design/Recovery/Recovery.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ed49200f9337546f",
+        "type": "tabs",
+        "dimension": 34.433285509325685,
+        "children": [
+          {
+            "id": "64b3ab0f4bf76579",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-System_design/electronics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,17 +213,18 @@
   },
   "active": "6537fa48783f2276",
   "lastOpenFiles": [
-    "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
+    "11-System_design/electronics.md",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Nosecone Ejection System.md",
+    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Recovery System.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7 1.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.24 .md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.13.md",
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/New Requirement.md",
-    "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
     "11-System_design/Payload.md",
     "11-System_design/Payload container.md",
@@ -207,8 +252,6 @@
     "12-Interfaces",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41 .md",
     "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41  1.md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.40 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.4 .md",
     "11-System_design/Requirements",
     "11-System_design/Recovery",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent",
