@@ -3,7 +3,7 @@ Class:
     - System
 Interfacing with: []
 System: TWR2
-ID: %id%
+ID: TWR2.ELECTRONICS
 Subsystems:
 ---
 

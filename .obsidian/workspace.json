@@ -6,7 +6,7 @@
       {
         "id": "61b65807861cd85e",
         "type": "tabs",
-        "dimension": 68.38709677419355,
+        "dimension": 58.06451612903226,
         "children": [
           {
             "id": "7613e46db4c79045",
@@ -104,7 +104,7 @@
       {
         "id": "ed49200f9337546f",
         "type": "tabs",
-        "dimension": 31.61290322580645,
+        "dimension": 41.935483870967744,
         "children": [
           {
             "id": "64b3ab0f4bf76579",
@@ -249,14 +249,14 @@
   },
   "active": "b7614b53271eb225",
   "lastOpenFiles": [
+    "11-System_design/electronics.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Recovery/Recovery System.md",
     "12-Interfaces/Test interface.md",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
-    "11-System_design/electronics.md",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7 1.md",

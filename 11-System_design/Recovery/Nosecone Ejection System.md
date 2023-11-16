@@ -30,7 +30,6 @@ models/Waddles_wm.stl
 | None⚠️             | [[Recovery Control Board]] |
 # Documents
 # Order History
-
 - Initial Order: [Date], [Supplier], [Quantity], [Unit Price]
 - Reorder: [Date], [Supplier], [Quantity], [Unit Price]
 - Last Purchase: [Date], [Supplier], [Quantity], [Unit Price]
