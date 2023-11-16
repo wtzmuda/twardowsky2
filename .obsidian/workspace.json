@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
                 "mode": "source",
                 "source": false
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
+                "file": "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md"
               }
             }
           }
@@ -249,10 +249,10 @@
   },
   "active": "b7614b53271eb225",
   "lastOpenFiles": [
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
     "12-Interfaces/Test interface.md",
     "11-System_design/electronics.md",
     "11-System_design/Recovery/Recovery.md",
