@@ -622,8 +622,11 @@ async function handleSystem(file: TFile) {
 
 async function handleInterface(file: TFile) {
 	const { metadataCache, vault } = app;
-	const fm = metadataCache.getFileCache(file)?.frontmatter ?? [];
-	console.log(fm);
+	const fm =
+		metadataCache.getFileCache(file)?.frontmatter ??
+		([] as {
+			Type: string[];
+		}[]);
 }
 
 async function handleRequirement(file: TFile, app: App) {
