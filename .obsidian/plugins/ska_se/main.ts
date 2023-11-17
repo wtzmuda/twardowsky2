@@ -24,6 +24,8 @@ import {
 	removeError,
 	getSection,
 	insertMarkdownUnderHeading,
+	addIconToName,
+	removeIconFromName,
 } from "utils/files";
 import {
 	addEmbed,
@@ -622,11 +624,27 @@ async function handleSystem(file: TFile) {
 
 async function handleInterface(file: TFile) {
 	const { metadataCache, vault } = app;
-	const fm =
-		metadataCache.getFileCache(file)?.frontmatter ??
-		([] as {
-			Type: string[];
-		}[]);
+	const fm = metadataCache.getFileCache(file)?.frontmatter as unknown as {
+		Type: string[] | undefined;
+	};
+
+	if (!fm.Type) return;
+
+	if (fm.Type.includes("Electrical")) {
+		await addIconToName(file, app, "⚡");
+	} else {
+		await removeIconFromName(file, app, "⚡");
+	}
+	if (fm.Type.includes("Mechanical")) {
+		await addIconToName(file, app, "🛠️");
+	} else {
+		await removeIconFromName(file, app, "🛠️");
+	}
+	if (fm.Type.includes("Software")) {
+		await addIconToName(file, app, "💻");
+	} else {
+		await removeIconFromName(file, app, "💻");
+	}
 }
 
 async function handleRequirement(file: TFile, app: App) {

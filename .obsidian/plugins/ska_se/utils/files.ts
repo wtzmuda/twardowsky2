@@ -28,6 +28,22 @@ export async function addWarning(file: TFile, app: App) {
 	);
 }
 
+export async function addIconToName(file: TFile, app: App, icon: string) {
+	if (file.path.includes(icon)) return;
+	await app.fileManager.renameFile(
+		file,
+		file.path.split(".md")[0].trim() + ` ${icon}.md`
+	);
+}
+
+export async function removeIconFromName(file: TFile, app: App, icon: string) {
+	if (!file.path.includes(icon)) return;
+	await app.fileManager.renameFile(
+		file,
+		file.path.split(icon).join("").trim()
+	);
+}
+
 export async function getSection(file: TFile, headingToSearch: string) {
 	const app = pluginHandler.app;
 
