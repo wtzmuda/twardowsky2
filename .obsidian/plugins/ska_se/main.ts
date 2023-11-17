@@ -512,7 +512,10 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		const edgeName = edge.childNodes[0]?.textContent;
 
 		const edgeFile = edgeName
-			? app.metadataCache.getFirstLinkpathDest(edgeName, "")
+			? app.metadataCache.getFirstLinkpathDest(
+					edgeName,
+					plugin.settings.interfaces_root_folder
+			  )
 			: null;
 
 		console.log(edgeFile);
