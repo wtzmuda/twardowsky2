@@ -577,6 +577,8 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 				);
 			}
 		}
+
+		console.log(index);
 		if (index) {
 			console.log(index);
 			canvasJson.edges[index].label = edgeFile.basename;
