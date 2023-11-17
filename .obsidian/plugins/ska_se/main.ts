@@ -532,8 +532,6 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			? app.metadataCache.getFirstLinkpathDest(bestMatch, "")
 			: null;
 
-		console.log(edgeFile);
-
 		if (!edgeFile || edgeFile.extension !== "md") return;
 
 		if (!edge.classList.contains("dom-event-registered")) {
