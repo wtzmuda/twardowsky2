@@ -269,12 +269,21 @@ export default class MyPlugin extends Plugin {
 				this.app.workspace.onLayoutReady(() =>
 					handleCanvas(thisFile, this)
 				);
+			// system design
 			else if (
 				thisFile.extension === "md" &&
 				thisFile.path.includes(this.settings.system_design_root_folder)
 			) {
 				this.app.workspace.onLayoutReady(() => {
 					handleSystem(thisFile);
+				});
+				// interfaces
+			} else if (
+				thisFile.extension === "md" &&
+				thisFile.path.includes(this.settings.interfaces_root_folder)
+			) {
+				this.app.workspace.onLayoutReady(() => {
+					handleInterface(thisFile);
 				});
 			}
 		});
@@ -609,6 +618,12 @@ async function handleSystem(file: TFile) {
 	}
 
 	app.metadataCache.on("resolve", resolveHeadingComponent);
+}
+
+async function handleInterface(file: TFile) {
+	const { metadataCache, vault } = app;
+	const fm = metadataCache.getFileCache(file)?.frontmatter ?? [];
+	console.log(fm);
 }
 
 async function handleRequirement(file: TFile, app: App) {
