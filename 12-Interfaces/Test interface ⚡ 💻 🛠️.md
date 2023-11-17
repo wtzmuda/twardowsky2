@@ -5,4 +5,5 @@ Class:
 Type:
   - Electrical
   - Software
+  - Mechanical
 ---

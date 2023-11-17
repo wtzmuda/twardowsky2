@@ -27,7 +27,7 @@ models/Waddles_wm.stl
 ## Interfaces
 | Interface Name                   | Connecting To             |
 | -------------------------------- | ------------------------- |
-| [[Test interface ⚡ 💻]] | [[Oxidizer Tank Sensors]] |
-| [[Test interface ⚡ 💻]] | [[Igniters]]              |
+| [[Test interface ⚡ 💻 🛠️]] | [[Oxidizer Tank Sensors]] |
+| [[Test interface ⚡ 💻 🛠️]] | [[Igniters]]              |
 
 

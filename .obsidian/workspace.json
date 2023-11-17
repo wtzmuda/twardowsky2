@@ -15,9 +15,9 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 671.8026155021271,
-                  "y": -150.98130104859035,
-                  "zoom": -0.374988185431239
+                  "x": 676.5759507065334,
+                  "y": -157.07676726316038,
+                  "zoom": -0.09498818543123891
                 }
               }
             }
@@ -153,9 +153,10 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "11-System_design/Payload container.md",
+    "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "11-System_design/System Diagram.canvas",
-    "12-Interfaces/Test interface ⚡ 💻.md",
+    "12-Interfaces/in.elko.md",
+    "11-System_design/Payload container.md",
     "11-System_design/Recovery/Recovery System.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "Obsidian/Interfaces/Test interface.md",
@@ -183,7 +184,6 @@
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
-    "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded",
     "69-Obsidian/Excalidraw/Scripts",
     "69-Obsidian/assets/Rocket.png",

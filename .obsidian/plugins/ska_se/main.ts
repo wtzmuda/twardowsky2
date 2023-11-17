@@ -448,8 +448,6 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 
 		if (node.classList.contains("dom-event-registered")) return;
 		plugin.registerDomEvent(node as HTMLElement, "dblclick", () => {
-			console.log(nodeFile);
-
 			if (nodeFile && nodeFile.extension === "md") {
 				app.workspace.openLinkText(nodeFile.path, "", true);
 			}
@@ -503,8 +501,6 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			);
 		});
 
-		console.log(edge);
-
 		if (!edge) return;
 
 		// get the edge from the canvas file
@@ -535,7 +531,6 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		if (!edgeFile || edgeFile.extension !== "md") return;
 
 		if (!edge.classList.contains("dom-event-registered")) {
-			console.log(edge);
 			plugin.registerDomEvent(edge as HTMLElement, "dblclick", () => {
 				app.workspace.openLinkText(edgeFile.path, "", true);
 			});
