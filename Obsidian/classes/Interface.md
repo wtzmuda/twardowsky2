@@ -1,2 +1,0 @@
-
-Connections:: {"type":"Input","options":{}}
