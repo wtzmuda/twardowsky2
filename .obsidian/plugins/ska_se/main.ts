@@ -391,7 +391,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 	const edgesEls = Array.from(
 		document.getElementsByClassName("canvas-path-label")
 	);
-
+	console.log(edges);
 	edges.forEach((edge: any, idx: number) => resolveEdge(edge, idx));
 
 	const int = await pluginHandler
