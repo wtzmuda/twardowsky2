@@ -511,11 +511,25 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 
 		const edgeName = edge.childNodes[0]?.textContent;
 
+		if (!edgeName || edgeName.length <= 3) return;
+
+		let bestMatch = "";
+
+		Object.entries(app.vault.fileMap).forEach(([path, file]) => {
+			if (path.includes(".md")) {
+				if (
+					file.basename
+						.toLowerCase()
+						.includes(edgeName?.toLowerCase()) &&
+					file.basename.length > bestMatch.length
+				) {
+					bestMatch = file.basename;
+				}
+			}
+		});
+
 		const edgeFile = edgeName
-			? app.metadataCache.getFirstLinkpathDest(
-					edgeName.replace(/[^\w.,\s]/g, "").trim(),
-					""
-			  )
+			? app.metadataCache.getFirstLinkpathDest(bestMatch, "")
 			: null;
 
 		console.log(edgeFile);
