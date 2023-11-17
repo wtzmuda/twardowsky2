@@ -518,7 +518,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		if (!edgeFile || edgeFile.extension !== "md") return;
 
 		if (!edge.classList.contains("dom-event-registered")) {
-			console.log("registering event");
+			console.log(edge);
 			plugin.registerDomEvent(edge as HTMLElement, "dblclick", () => {
 				app.workspace.openLinkText(edgeFile.path, "", true);
 			});
