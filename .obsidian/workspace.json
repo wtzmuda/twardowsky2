@@ -41,14 +41,11 @@
             "id": "36807d80af970481",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 670.7039423745158,
-                  "y": -154.95802307684923,
-                  "zoom": -0.20998818543123893
-                }
+                "file": "11-System_design/Recovery/Recovery Control Board.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -155,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Recovery/Recovery Control Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Recovery/Recovery Control Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "11-System_design/Recovery/Recovery Control Board.md"
               }
             }
           }
@@ -220,8 +217,8 @@
   },
   "active": "36807d80af970481",
   "lastOpenFiles": [
-    "12-Interfaces/Test interface ⚡ 💻.md",
     "11-System_design/System Diagram.canvas",
+    "12-Interfaces/Test interface ⚡ 💻.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Payload container.md",
     "11-System_design/Payload.md",

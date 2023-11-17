@@ -25,7 +25,10 @@ models/Waddles_wm.stl
 | Interface Name     | Connecting To                |
 | ------------------ | ---------------------------- |
 | None⚠️             | [[Nosecone Ejection System]] |
-| [[Test interface ⚡ ]] | [[Recovery System]]          |
+| [[Test interface]] | [[Recovery System]]          |
 # Documents
 
 # Order History
+
+<iframe src="https://www.tablesgenerator.com/markdown_tables" width=500 height=750></iframe>
+
