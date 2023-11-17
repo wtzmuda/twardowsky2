@@ -11,11 +11,14 @@
             "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md",
-                "mode": "source",
-                "source": false
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 660,
+                  "y": 140,
+                  "zoom": -0.5999881854312392
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -150,8 +153,9 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
     "12-Interfaces/Test interface ⚡ 💻.md",
+    "11-System_design/System Diagram.canvas",
+    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "Obsidian/Interfaces/Test interface.md",
     "11-System_design/Payload container.md",
@@ -166,7 +170,6 @@
     "01-Model/99-Archive/Nowy Dokument tekstowy.html",
     "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
     "README.md",
-    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/Requirements/REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7 1.md",
