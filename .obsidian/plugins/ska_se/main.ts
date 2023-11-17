@@ -503,6 +503,8 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			);
 		});
 
+		console.log(edge);
+
 		if (!edge) return;
 
 		// get the edge from the canvas file
