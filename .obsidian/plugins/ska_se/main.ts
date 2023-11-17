@@ -561,6 +561,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			}
 		}
 		if (index) {
+			console.log(index);
 			canvasJson.edges[index].label = edgeFile.basename;
 			console.log(canvasJson.edges[index].label);
 			await app.vault.modify(canvasFile, JSON.stringify(canvasJson));
