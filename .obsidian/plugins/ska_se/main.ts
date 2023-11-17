@@ -494,7 +494,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			toNode: any;
 			id: string;
 		},
-		index?: number
+		index: number
 	) {
 		const edge = Array.from(edgesEls).find((edge) => {
 			return (
@@ -508,8 +508,6 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		if (!edge) return;
 
 		// get the edge from the canvas file
-
-		usedEdges.push(edge);
 
 		const edgeName = edge.childNodes[0]?.textContent;
 
@@ -580,10 +578,8 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			}
 		}
 
-		console.log(index);
-		if (index) {
-			canvasJson.edges[index].label = edgeFile.basename;
-		}
+		canvasJson.edges[index].label = edgeFile.basename;
+		usedEdges.push(edge);
 	}
 }
 
