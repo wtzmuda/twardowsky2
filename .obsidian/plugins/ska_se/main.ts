@@ -391,8 +391,8 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 	const edgesEls = Array.from(
 		document.getElementsByClassName("canvas-path-label")
 	);
-	console.log(edges);
 	edges.forEach((edge: any, idx: number) => resolveEdge(edge, idx));
+	await app.vault.modify(canvasFile, JSON.stringify(canvasJson));
 
 	const int = await pluginHandler
 		.getPlugins()
@@ -580,10 +580,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 
 		console.log(index);
 		if (index) {
-			console.log(index);
 			canvasJson.edges[index].label = edgeFile.basename;
-			console.log(edgeFile.basename);
-			await app.vault.modify(canvasFile, JSON.stringify(canvasJson));
 		}
 	}
 }
