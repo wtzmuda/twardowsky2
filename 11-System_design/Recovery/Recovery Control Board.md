@@ -30,5 +30,3 @@ models/Waddles_wm.stl
 
 # Order History
 
-<iframe src="https://www.tablesgenerator.com/markdown_tables" width=500 height=750></iframe>
-

@@ -392,7 +392,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		document.getElementsByClassName("canvas-path-label")
 	);
 
-	edges.forEach((edge: any) => resolveEdge(edge));
+	edges.forEach((edge: any, idx: number) => resolveEdge(edge, idx));
 
 	const int = await pluginHandler
 		.getPlugins()
@@ -426,7 +426,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		}
 	});
 
-	function resolveComponent(node: Element) {
+	async function resolveComponent(node: Element) {
 		let isGroup = false;
 
 		if (node.classList.contains("canvas-node-group")) isGroup = true;
@@ -469,8 +469,10 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 				break;
 			}
 		}
-		update && app.vault.modify(canvasFile, JSON.stringify(canvasJson));
+		update &&
+			(await app.vault.modify(canvasFile, JSON.stringify(canvasJson)));
 
+		// update handlers logic
 		if (isGroup) {
 			plugin.registerDomEvent(groupLabel as HTMLElement, "focusout", () =>
 				resolveComponent(node)
@@ -484,13 +486,16 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		}
 	}
 
-	async function resolveEdge(edgeJson: {
-		label: any;
-		childNodes: any;
-		fromNode: any;
-		toNode: any;
-		id: string;
-	}) {
+	async function resolveEdge(
+		edgeJson: {
+			label: any;
+			childNodes: any;
+			fromNode: any;
+			toNode: any;
+			id: string;
+		},
+		index?: number
+	) {
 		const edge = Array.from(edgesEls).find((edge) => {
 			return (
 				edgeJson.label === edge.childNodes[0]?.textContent &&
@@ -510,11 +515,11 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			? app.metadataCache.getFirstLinkpathDest(edgeName, "")
 			: null;
 
+		if (!edgeFile || edgeFile.extension !== "md") return;
+
 		if (!edge.classList.contains("dom-event-registered")) {
 			plugin.registerDomEvent(edge as HTMLElement, "dblclick", () => {
-				if (edgeFile && edgeFile.extension === "md") {
-					app.workspace.openLinkText(edgeFile.path, "", true);
-				}
+				app.workspace.openLinkText(edgeFile.path, "", true);
 			});
 
 			edge.classList.add("dom-event-registered");
@@ -553,6 +558,10 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 					`${fromConenction} <=> ${toConnection}`
 				);
 			}
+		}
+		if (index) {
+			canvasJson.edges[index].label = edgeFile.basename;
+			await app.vault.modify(canvasFile, JSON.stringify(canvasJson));
 		}
 	}
 }
