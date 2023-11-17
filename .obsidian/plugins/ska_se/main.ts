@@ -515,6 +515,8 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 			? app.metadataCache.getFirstLinkpathDest(edgeName, "")
 			: null;
 
+		console.log(edgeFile);
+
 		if (!edgeFile || edgeFile.extension !== "md") return;
 
 		if (!edge.classList.contains("dom-event-registered")) {
@@ -563,7 +565,7 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 		if (index) {
 			console.log(index);
 			canvasJson.edges[index].label = edgeFile.basename;
-			console.log(canvasJson.edges[index].label);
+			console.log(edgeFile.basename);
 			await app.vault.modify(canvasFile, JSON.stringify(canvasJson));
 		}
 	}
