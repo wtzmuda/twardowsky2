@@ -41,11 +41,14 @@
             "id": "36807d80af970481",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "12-Interfaces/Test interface ⚡ 💻.md",
-                "mode": "source",
-                "source": false
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 660,
+                  "y": 140,
+                  "zoom": -0.5999881854312392
+                }
               }
             }
           },
@@ -152,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12-Interfaces/Test interface ⚡ 💻.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12-Interfaces/Test interface ⚡ 💻.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12-Interfaces/Test interface ⚡ 💻.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
