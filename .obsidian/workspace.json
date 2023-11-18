@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "twr2.recovery",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 268.50633239746094
+    "width": 497.5
   },
   "right": {
     "id": "9e993a31bde6bca1",
@@ -148,7 +149,7 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "a1b0a082dce16649",
+  "active": "3733a52bccc5e372",
   "lastOpenFiles": [
     "69-Obsidian/Rejestr Dokumentów.md",
     "11-System_design/System Diagram.canvas",

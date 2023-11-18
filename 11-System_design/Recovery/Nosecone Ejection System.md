@@ -1,10 +1,11 @@
 ---
 Class:
   - System
-Interfacing with: []
+Interfacing with: 
 System: TWR2.RECOVERY
 ID: TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM
-Subsystems:
+Subsystems: 
+Model: TWR.2A.4.03.02.001
 ---
 
 Mass: (Mass:: 0)
