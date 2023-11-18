@@ -507,7 +507,10 @@ async function handleCanvas(canvasFile: TFile, plugin: MyPlugin) {
 
 		const edgeName = edge.childNodes[0]?.textContent;
 
-		if (!edgeName || edgeName.length <= 3) return;
+		if (!edgeName || edgeName.length <= 3) {
+			canvasJson.edges[index].label = "⚠️";
+			return;
+		}
 
 		let bestMatch = "";
 

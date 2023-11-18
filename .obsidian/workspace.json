@@ -11,14 +11,11 @@
             "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 673.166525922342,
-                  "y": -206.8434557187837,
-                  "zoom": -0.18498818543123846
-                }
+                "file": "69-Obsidian/Spis dokumentów.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "69-Obsidian/Spis dokumentów.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "69-Obsidian/Spis dokumentów.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "69-Obsidian/Spis dokumentów.md"
               }
             }
           }
@@ -153,8 +150,9 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "11-System_design/System Diagram.canvas",
+    "69-Obsidian/Spis dokumentów.md",
+    "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "12-Interfaces/in.elko.md",
     "11-System_design/Payload container.md",
     "11-System_design/Recovery/Recovery System.md",
@@ -182,7 +180,6 @@
     "69-Obsidian/File index template.md",
     "11-System_design/Propulsion/Propulsion.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
-    "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded",
     "69-Obsidian/Excalidraw/Scripts",
