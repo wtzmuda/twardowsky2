@@ -62,3 +62,4 @@
 	- Checklisty
 - Templatka do testów
 - BOM
+	- [nazwa części]-[numer na złożenia]

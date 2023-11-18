@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "69-Obsidian/Rejestr Dokumentów.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "69-Obsidian/Rejestr Dokumentów.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "69-Obsidian/Rejestr Dokumentów.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "69-Obsidian/Rejestr Dokumentów.md"
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
     "69-Obsidian/Rejestr Dokumentów.md",
+    "11-System_design/System Diagram.canvas",
     "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "12-Interfaces/in.elko.md",
     "11-System_design/Payload container.md",

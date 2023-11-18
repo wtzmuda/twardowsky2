@@ -24,10 +24,10 @@ models/Waddles_wm.stl
 ## Tests
 
 ## Interfaces
-| Interface Name | Connecting To              |
-| -------------- | -------------------------- |
-| None⚠️         | [[Recovery System]]        |
-| None⚠️         | [[Recovery Control Board]] |
+| Interface Name              | Connecting To              |
+| --------------------------- | -------------------------- |
+| [[Test interface ⚡ 💻 🛠️]] | [[Recovery System]]        |
+| None⚠️                      | [[Recovery Control Board]] |
 # Documents
 # Order History
 - Initial Order: [Date], [Supplier], [Quantity], [Unit Price]
