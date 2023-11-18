@@ -61,3 +61,4 @@
 	- Tradeoffów
 	- Checklisty
 - Templatka do testów
+- BOM
