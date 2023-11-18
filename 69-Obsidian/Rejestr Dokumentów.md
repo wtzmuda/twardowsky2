@@ -51,3 +51,4 @@
 - Raporty organizacyjne
 - Project timeline
 - Gantt chart
+- Team organization
