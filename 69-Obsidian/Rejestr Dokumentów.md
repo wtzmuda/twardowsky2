@@ -1,5 +1,7 @@
 ### TODO:
 - Metodyka nazywania dokumentów
+- Rozbicie wymagań spaceportowych i naszych wewnętrznych
+- 
 
 # Propulsion
 - opis metodyki testów wstępnych (kwalifikujące elementy)
@@ -9,3 +11,5 @@
 - Rejestr checklist testowych /\
 - Dokumenty weryfikacji wykonania części (raport, zapis z weryfikacji wymiarowania)
 - Wyceny części
+- Schematy hydrauliki (inny schemat dla każdego testu)
+- 

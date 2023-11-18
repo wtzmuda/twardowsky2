@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "canvas"
   ],
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "baseFontSize": 17
 }
