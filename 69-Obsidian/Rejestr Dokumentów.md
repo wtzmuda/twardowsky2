@@ -1,5 +1,8 @@
 ### TODO:
 - Metodyka nazywania dokumentów
+	- TWR2-[rodzaj dokumentu]-[nazwa systemu]-[podsystem*]-[tytuł dokumentu]-[number porządkowy w rejestrze]
+	- * podsystem opcjonalnie
+	- Np: TWR2-CHE-PRO-OXI-OXIDIZER_PRESSURE_TEST-01
 - Rozbicie wymagań spaceportowych i naszych wewnętrznych
 
 # Propulsion
