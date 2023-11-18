@@ -1,7 +1,6 @@
 ### TODO:
 - Metodyka nazywania dokumentów
 - Rozbicie wymagań spaceportowych i naszych wewnętrznych
-- 
 
 # Propulsion
 - opis metodyki testów wstępnych (kwalifikujące elementy)
@@ -53,3 +52,7 @@
 - Project timeline
 - Gantt chart
 - Team structure
+- Filozofia powstania danego systemu
+	- Tradeoffy, co spowodowało że wzięliśmy takie rozwiązanie
+- Templatka do dokumentów
+- Templatka do testów
