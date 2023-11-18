@@ -24,4 +24,6 @@
 
 # Analysis
 - Wnioski z testów (raport potestowy)
-- 
+- Engineering data
+	- środki masy, masy systemów, geometrie elementów itd ()
+	- 
