@@ -55,4 +55,6 @@
 - Filozofia powstania danego systemu
 	- Tradeoffy, co spowodowało że wzięliśmy takie rozwiązanie
 - Templatka do dokumentów
+	- Tradeoffów
+	- Checklisty
 - Templatka do testów
