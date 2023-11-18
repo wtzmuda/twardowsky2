@@ -37,3 +37,17 @@
 - Dokumentacja elementów systemu GSE
 - Dodatkowe parametry do subsystemów (np długość węża, moc koca grzewczego)
 	- Dodać w engineering data
+
+# Project Management
+- Concept of operation
+- Guidelines and rules
+	- Jak korzystać z teams i repo i obsydiana
+	- GIT jest podstawowym repo
+- Project management plan
+- Finanse
+	- granty wysłane
+	- budżet
+	- faktury
+- Raporty organizacyjne
+- Project timeline
+- 
