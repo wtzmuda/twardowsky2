@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "69-Obsidian/Rejestr Dokumentów.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "twr2.recovery",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 433.5
   },
   "right": {
     "id": "9e993a31bde6bca1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "69-Obsidian/Rejestr Dokumentów.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "69-Obsidian/Rejestr Dokumentów.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
+                "file": "69-Obsidian/Rejestr Dokumentów.md"
               }
             }
           }
@@ -149,15 +148,15 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "3733a52bccc5e372",
+  "active": "a1b0a082dce16649",
   "lastOpenFiles": [
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "69-Obsidian/Rejestr Dokumentów.md",
     "11-System_design/System Diagram.canvas",
     "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "12-Interfaces/in.elko.md",
     "11-System_design/Payload container.md",
     "11-System_design/Recovery/Recovery System.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
     "Obsidian/Interfaces/Test interface.md",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Recovery/Recovery Control Board.md",

@@ -30,6 +30,13 @@ models/Waddles_wm.stl
 | [[Test interface ⚡ 💻 🛠️]] | [[Recovery System]]        |
 | None⚠️                      | [[Recovery Control Board]] |
 # Documents
+- Faktura 1
+- Faktura 2
+# Part history
+- 18.11.2023
+	- Zmiana nazwy na cośtam
+	- Dodanie property "Model"
+
 # Order History
 - Initial Order: [Date], [Supplier], [Quantity], [Unit Price]
 - Reorder: [Date], [Supplier], [Quantity], [Unit Price]
