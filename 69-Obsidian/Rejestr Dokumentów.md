@@ -26,4 +26,14 @@
 - Wnioski z testów (raport potestowy)
 - Engineering data
 	- środki masy, masy systemów, geometrie elementów itd (https://teams.microsoft.com/_#/apps/1c256a65-83a6-4b5c-9ccf-78f8afb6f1e8/sections/MyNotebook)
-- 
+- Dokumentacja symulacji (raporty z symulacji)
+
+# GSE
+- Instrukcja integracji
+	- Spis elementów potrzebnych do integracji danego systemu
+	- Instrukcja w wordzie
+	- Spis elementów w excelu (tak żeby można było łatwo przekazać do innego arkusza)
+- Schematy testowe
+- Dokumentacja elementów systemu GSE
+- Dodatkowe parametry do subsystemów (np długość węża, moc koca grzewczego)
+	- Dodać w engineering data
