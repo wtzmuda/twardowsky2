@@ -22,4 +22,6 @@
 - CDR
 - FDR
 
-# 
+# Analysis
+- Wnioski z testów (raport potestowy)
+- 
