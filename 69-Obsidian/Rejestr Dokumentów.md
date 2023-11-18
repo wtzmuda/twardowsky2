@@ -10,6 +10,9 @@
 	- checklista dla kazdego testu
 - Rejestr checklist testowych /\
 - Dokumenty weryfikacji wykonania części (raport, zapis z weryfikacji wymiarowania)
-- Wyceny części
+- Wyceny części + fakturki
 - Schematy hydrauliki (inny schemat dla każdego testu)
-- 
+- Wymagania do poszczególnych podsystemów
+- Wymagania wysokopoziomowe (międzysystemowe)
+- Risk assesment
+	- definicja potencjalnych przyczyn awarii
