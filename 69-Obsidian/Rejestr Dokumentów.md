@@ -15,4 +15,7 @@
 - Wymagania do poszczególnych podsystemów
 - Wymagania wysokopoziomowe (międzysystemowe)
 - Risk assesment
-	- definicja potencjalnych przyczyn awarii
+	- definicja potencjalnych przyczyn awarii i określenie skali ryzyka
+	- określenie najpierw konsekwencji potem ścieżki dojścia do nich (xd)
+- Dokumentacja zgłoszenia na konkursy
+- 
