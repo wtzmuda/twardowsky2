@@ -50,4 +50,4 @@
 	- faktury
 - Raporty organizacyjne
 - Project timeline
-- 
+- Gantt chart
