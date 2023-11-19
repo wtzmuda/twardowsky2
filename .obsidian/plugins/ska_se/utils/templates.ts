@@ -84,7 +84,8 @@ export async function addToSystemDiagram({
 		"System Diagram",
 		""
 	);
-	if (!systemDiagram) return;
+	console.log(systemDiagram);
+	if (!systemDiagram) throw new Error("No system diagram found");
 	const d = await app.vault.cachedRead(systemDiagram);
 	const dataJson = JSON.parse(d);
 

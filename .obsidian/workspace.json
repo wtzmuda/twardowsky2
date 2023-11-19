@@ -15,28 +15,10 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 707.1848945703388,
-                  "y": 59.73454946348832,
+                  "x": 741.5407937202248,
+                  "y": 76.9125221662413,
                   "zoom": -0.5999881854312393
                 }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "85e32665f6f58d9b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "031d4479860afa9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-System_design/test.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -106,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/test.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/test.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/test.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -169,10 +151,10 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "031d4479860afa9a",
+  "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
     "11-System_design/test.md",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/test component.md",
     "69-Obsidian/Rejestr Dokumentów.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
