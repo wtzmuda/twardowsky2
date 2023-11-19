@@ -15,8 +15,8 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 757.253229047931,
-                  "y": -158.23186340220707,
+                  "x": 694.1572406116945,
+                  "y": -162.79077227737446,
                   "zoom": -0.33333333333333326
                 }
               }
@@ -163,7 +163,7 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "a1b0a082dce16649",
+  "active": "f2738213849d3a1e",
   "lastOpenFiles": [
     "11-System_design/Recovery/Recovery System.md",
     "11-System_design/System Diagram.canvas",
