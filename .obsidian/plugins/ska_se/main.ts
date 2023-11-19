@@ -835,7 +835,6 @@ class CreateComponentModal extends Modal {
 				system: "TWR2",
 				path: rootPath + "/" + name + ".md",
 			});
-			console.log("new component", newComponent);
 			await addToSystemDiagram({
 				file: newComponent,
 				isComponent: isComponent.checked,

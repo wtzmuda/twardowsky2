@@ -81,7 +81,7 @@ export async function addToSystemDiagram({
 }) {
 	const app = pluginHandler.app;
 	const systemDiagram = app.metadataCache.getFirstLinkpathDest(
-		"System Diagram",
+		"System Diagram.canvas",
 		""
 	);
 	console.log(systemDiagram);
