@@ -15,9 +15,9 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 687.0965594164861,
-                  "y": -196.13111195544457,
-                  "zoom": 0.33333333333333337
+                  "x": 757.253229047931,
+                  "y": -158.23186340220707,
+                  "zoom": -0.33333333333333326
                 }
               }
             }
@@ -34,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Recovery System.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -164,8 +163,9 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "d0ce7ba27e8ae76f",
+  "active": "a1b0a082dce16649",
   "lastOpenFiles": [
+    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/testt.md",
     "11-System_design/test.md",
@@ -175,7 +175,6 @@
     "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "12-Interfaces/in.elko.md",
     "11-System_design/Payload container.md",
-    "11-System_design/Recovery/Recovery System.md",
     "Obsidian/Interfaces/Test interface.md",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Recovery/Recovery Control Board.md",
