@@ -11,14 +11,11 @@
             "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 738.8116421701,
-                  "y": -200.6785452415644,
-                  "zoom": -0.33333333333333326
-                }
+                "file": "13-Meetings/Mechanics/20.11.2023.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -100,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "13-Meetings/Mechanics/20.11.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "13-Meetings/Mechanics/20.11.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "13-Meetings/Mechanics/20.11.2023.md"
               }
             }
           }
@@ -163,10 +160,13 @@
       "ska-se-obsidian-plugin:SKA SE": false
     }
   },
-  "active": "f2738213849d3a1e",
+  "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/System Diagram.canvas",
+    "13-Meetings/Mechanics/20.11.2023.md",
+    "13-Meetings/Mechanics",
+    "13-Meetings",
+    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/testt.md",
     "11-System_design/test.md",
     "11-System_design/test component.md",
@@ -192,7 +192,6 @@
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.24 .md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.13.md",
     "11-System_design/Requirements/New Requirement.md",
-    "11-System_design/Requirements/REQ.TWR2.RECOVERY.2137.md",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
@@ -205,8 +204,6 @@
     "69-Obsidian/Excalidraw",
     "69-Obsidian/assets",
     "69-Obsidian",
-    "12-Interfaces",
-    "11-System_design/Requirements",
     "Requirements.canvas",
     "Rocket Systems/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Untitled Diagram.svg",
     "Functional Diagram.canvas",
