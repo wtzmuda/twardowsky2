@@ -6,20 +6,16 @@
       {
         "id": "034f86b00c5fe3b7",
         "type": "tabs",
-        "dimension": 62.4390243902439,
         "children": [
           {
             "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 780.8635796722531,
-                  "y": -119.48689895430772,
-                  "zoom": -0.4699881854312412
-                }
+                "file": "13-Meetings/Mechanics/20.11.2023.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -33,21 +29,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "5a25e8b7014f4505",
-        "type": "tabs",
-        "dimension": 37.5609756097561,
-        "children": [
-          {
-            "id": "d76564851ce5f6ee",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -116,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "13-Meetings/Mechanics/20.11.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "13-Meetings/Mechanics/20.11.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "13-Meetings/Mechanics/20.11.2023.md"
               }
             }
           }
@@ -181,8 +162,8 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "11-System_design/SOR.md",
     "11-System_design/System Diagram.canvas",
+    "11-System_design/SOR.md",
     "13-Meetings/Mechanics/20.11.2023.md",
     "13-Meetings/Mechanics",
     "13-Meetings",
