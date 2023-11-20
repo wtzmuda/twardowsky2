@@ -6,16 +6,20 @@
       {
         "id": "034f86b00c5fe3b7",
         "type": "tabs",
+        "dimension": 62.4390243902439,
         "children": [
           {
             "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "13-Meetings/Mechanics/20.11.2023.md",
-                "mode": "source",
-                "source": false
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 780.8635796722531,
+                  "y": -119.48689895430772,
+                  "zoom": -0.4699881854312412
+                }
               }
             }
           },
@@ -29,6 +33,21 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5a25e8b7014f4505",
+        "type": "tabs",
+        "dimension": 37.5609756097561,
+        "children": [
+          {
+            "id": "d76564851ce5f6ee",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13-Meetings/Mechanics/20.11.2023.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13-Meetings/Mechanics/20.11.2023.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13-Meetings/Mechanics/20.11.2023.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -162,6 +181,7 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
+    "11-System_design/SOR.md",
     "11-System_design/System Diagram.canvas",
     "13-Meetings/Mechanics/20.11.2023.md",
     "13-Meetings/Mechanics",
@@ -191,7 +211,6 @@
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7 1.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.24 .md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.13.md",
-    "11-System_design/Requirements/New Requirement.md",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
