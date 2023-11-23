@@ -11,14 +11,11 @@
             "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 796.9341440669264,
-                  "y": -137.11064831511968,
-                  "zoom": -0.075
-                }
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -100,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
               }
             }
           }
@@ -165,12 +162,12 @@
   },
   "active": "a1b0a082dce16649",
   "lastOpenFiles": [
-    "13-Meetings/Mechanics/20.11.2023.md",
+    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/System Diagram.canvas",
+    "13-Meetings/Mechanics/20.11.2023.md",
     "11-System_design/SOR.md",
     "13-Meetings/Mechanics",
     "13-Meetings",
-    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/testt.md",
     "11-System_design/test.md",
     "11-System_design/test component.md",
