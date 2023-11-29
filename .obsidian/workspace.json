@@ -26,14 +26,9 @@
             "id": "ab420906bdfbe4d8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "database-plugin",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 717.0751217112821,
-                  "y": -25.745098039215684,
-                  "zoom": -0.034933790109387346
-                }
+                "file": "11-System_design/Requirements/Requirements.md"
               }
             }
           },
@@ -116,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Requirements/Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Requirements/Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "11-System_design/Requirements/Requirements.md"
               }
             }
           }
@@ -176,13 +171,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "ska-se-obsidian-plugin:SKA SE": false
+      "ska-se-obsidian-plugin:SKA SE": false,
+      "dbfolder:Create a new database table": false
     }
   },
   "active": "ab420906bdfbe4d8",
   "lastOpenFiles": [
-    "11-System_design/Payload container.md",
     "11-System_design/System Diagram.canvas",
+    "11-System_design/Requirements/Requirements.md",
+    "11-System_design/Payload container.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.24 .md",
@@ -208,7 +205,6 @@
     "11-System_design/Payload.md",
     "11-System_design/electronics.md",
     "11-System_design/123.md",
-    "69-Obsidian/TODO.md",
     "01-Model/99-Archive/Nowy Dokument tekstowy.html",
     "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
