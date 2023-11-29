@@ -21,7 +21,7 @@ models/Waddles_wm.stl
 ## Requirements
 | Description | Source                                              |
 | ----------- | --------------------------------------------------- |
-|             | [[REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md]] |
+|             | [[REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1]] |
 ## Tests
 
 ## Interfaces

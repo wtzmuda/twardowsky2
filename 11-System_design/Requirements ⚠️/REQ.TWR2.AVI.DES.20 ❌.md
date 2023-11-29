@@ -20,6 +20,6 @@ EuRoC Design, Test & Evaluation Guide; Version 4.6
 
 # Conflict
 
-YES - The given requirement states that RF transmitter, receivers or transceivers are not allowed to be mounted externally, which directly conflicts with the requirement to compare, which assumes the possibility of externally mounted antennas. - [[Requirements/REQ.TWR2.AVI.DES.39 ❌.md]]
+YES - The given requirement states that RF transmitter, receivers or transceivers are not allowed to be mounted externally, which directly conflicts with the requirement to compare, which assumes the possibility of externally mounted antennas. - [[REQ.TWR2.AVI.DES.39 ❌]]
 
 Potential conflict resolution: Align the requirements by either allowing externally-mounted antennas (in cases where it's technically possible and doesn't pose hazards or inefficiencies), or adjust the second requirement to only concern internally-mounted systems.
