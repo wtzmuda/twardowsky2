@@ -294,6 +294,7 @@ export default class MyPlugin extends Plugin {
 					.dataview.pages('"Requirements')
 					.find(([, page]: any) => page.file.path === thisFile.path)
 			) {
+				console.log("handling requirement");
 				handleRequirement(thisFile, this.app);
 			}
 		});
