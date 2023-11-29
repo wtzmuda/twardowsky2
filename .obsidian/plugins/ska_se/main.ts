@@ -296,6 +296,7 @@ export default class MyPlugin extends Plugin {
 				//@ts-ignore
 				const dv = pluginHandler.getPlugins().dataview;
 				const pages = [...dv.pages('"Requirements"')];
+				console.log(pages);
 				if (!pages) return;
 				const pageClass = Object.entries(pages).find(([, page]) => {
 					return page.file.path === file.path;

@@ -13,5 +13,3 @@ Rocket shall have avionics module.
 
 ## Source
 
-nan
-
