@@ -21,6 +21,7 @@ columns:
     position: 0
     isHidden: false
     sortIndex: -1
+    width: 107
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -30,6 +31,8 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      content_alignment: text-align-left
+      content_vertical_alignment: align-middle
 config:
   remove_field_when_delete_column: false
   cell_size: normal
