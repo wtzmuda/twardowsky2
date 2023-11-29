@@ -276,6 +276,7 @@ export default class MyPlugin extends Plugin {
 				thisFile.extension === "md" &&
 				thisFile.path.includes(this.settings.system_design_root_folder)
 			) {
+				console.log("system design");
 				this.app.workspace.onLayoutReady(() => {
 					handleSystem(thisFile);
 				});
@@ -284,6 +285,7 @@ export default class MyPlugin extends Plugin {
 				thisFile.extension === "md" &&
 				thisFile.path.includes(this.settings.interfaces_root_folder)
 			) {
+				console.log("interfaces");
 				this.app.workspace.onLayoutReady(() => {
 					handleInterface(thisFile);
 				});
