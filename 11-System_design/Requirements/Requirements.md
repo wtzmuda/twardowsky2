@@ -18,10 +18,10 @@ columns:
     skipPersist: false
     isDragDisabled: false
     csvCandidate: true
-    position: 0
+    position: 1
     isHidden: false
     sortIndex: -1
-    width: 107
+    width: 30
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -33,16 +33,37 @@ columns:
       persist_changes: false
       content_alignment: text-align-left
       content_vertical_alignment: align-middle
+      wrap_content: true
   Description:
     input: text
     accessorKey: Description
     key: Description
     id: Description
     label: Description
-    position: 100
+    position: 3
     skipPersist: false
     isHidden: false
     sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  System:
+    input: text
+    accessorKey: System
+    key: System
+    id: System
+    label: System
+    position: 2
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 156
     config:
       enable_media_view: true
       link_alias_enabled: true
