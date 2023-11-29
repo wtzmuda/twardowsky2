@@ -26,9 +26,11 @@
             "id": "ab420906bdfbe4d8",
             "type": "leaf",
             "state": {
-              "type": "database-plugin",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md"
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -111,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md"
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md"
               }
             }
           }
@@ -177,6 +179,7 @@
   },
   "active": "ab420906bdfbe4d8",
   "lastOpenFiles": [
+    "11-System_design/Requirements/Requirements.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7 1.md",
@@ -205,7 +208,6 @@
     "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Payload.md",
     "11-System_design/electronics.md",
-    "11-System_design/123.md",
     "01-Model/99-Archive/Nowy Dokument tekstowy.html",
     "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",

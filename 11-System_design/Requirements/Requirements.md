@@ -67,7 +67,7 @@ columns:
     options:
       - { label: "in-review", value: "in-review", color: "hsl(213, 95%, 90%)"}
       - { label: "accepted", value: "accepted", color: "hsl(75, 95%, 90%)"}
-      - { label: "conflict", value: "conflict", color: "hsl(226, 95%, 90%)"}
+      - { label: "conflict", value: "conflict", color: "hsl(0,100%,81%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -77,6 +77,9 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      option_source: manual
+      content_vertical_alignment: align-middle
+      content_alignment: text-align-left
 config:
   remove_field_when_delete_column: false
   cell_size: normal
