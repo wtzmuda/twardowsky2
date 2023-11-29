@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.AVI.MISSION.26
-Status: accepted
+Status: in-review
 System: TWR2.AVI
 Class: Requirement
+Conflicting-with: 
 ---
 
 ## Description
