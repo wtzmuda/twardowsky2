@@ -287,6 +287,14 @@ export default class MyPlugin extends Plugin {
 				this.app.workspace.onLayoutReady(() => {
 					handleInterface(thisFile);
 				});
+			} else if (
+				thisFile.extension === "md" &&
+				pluginHandler
+					.getPlugins()
+					.dataview.pages('"Requirements')
+					.find(([, page]: any) => page.file.path === thisFile.path)
+			) {
+				handleRequirement(thisFile, this.app);
 			}
 		});
 
