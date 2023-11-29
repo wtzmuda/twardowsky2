@@ -34,25 +34,6 @@ columns:
       content_alignment: text-align-left
       content_vertical_alignment: align-middle
       wrap_content: false
-  Description:
-    input: text
-    accessorKey: Description
-    key: Description
-    id: Description
-    label: Description
-    position: 3
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
   System:
     input: text
     accessorKey: System
@@ -64,6 +45,29 @@ columns:
     isHidden: false
     sortIndex: -1
     width: 156
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Status:
+    input: select
+    accessorKey: Status
+    key: Status
+    id: Status
+    label: Status
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "in-review", value: "in-review", color: "hsl(213, 95%, 90%)"}
+      - { label: "accepted", value: "accepted", color: "hsl(75, 95%, 90%)"}
+      - { label: "conflict", value: "conflict", color: "hsl(226, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
