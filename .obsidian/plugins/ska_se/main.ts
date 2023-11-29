@@ -289,10 +289,7 @@ export default class MyPlugin extends Plugin {
 				});
 			} else if (
 				thisFile.extension === "md" &&
-				pluginHandler
-					.getPlugins()
-					.dataview.pages('"Requirements')
-					.find(([, page]: any) => page.file.path === thisFile.path)
+				thisFile.path.includes("REQ")
 			) {
 				console.log("handling requirement");
 				handleRequirement(thisFile, this.app);
