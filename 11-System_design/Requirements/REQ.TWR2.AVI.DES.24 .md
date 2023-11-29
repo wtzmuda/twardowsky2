@@ -1,9 +1,10 @@
 ---
 Title: REQ.TWR2.AVI.DES.24
-Status: accepted
+Status: in-review
 System: TWR2.AVI
 Class: Requirement
 ID: TWR2.AVI.REQ.TWR2.AVI.DES.24
+Conflicting-with: 
 ---
 
 ## Description
