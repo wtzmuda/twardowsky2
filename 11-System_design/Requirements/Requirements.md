@@ -33,7 +33,7 @@ columns:
       persist_changes: false
       content_alignment: text-align-left
       content_vertical_alignment: align-middle
-      wrap_content: true
+      wrap_content: false
   Description:
     input: text
     accessorKey: Description
