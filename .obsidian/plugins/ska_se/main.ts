@@ -287,10 +287,7 @@ export default class MyPlugin extends Plugin {
 				this.app.workspace.onLayoutReady(() => {
 					handleInterface(thisFile);
 				});
-			} else if (
-				thisFile.extension === "md" &&
-				thisFile.path.includes("REQ")
-			) {
+			} else if (thisFile.extension === "md") {
 				console.log("handling requirement");
 				handleRequirement(thisFile, this.app);
 			}
