@@ -274,7 +274,10 @@ export default class MyPlugin extends Plugin {
 			// system design
 			else if (
 				thisFile.extension === "md" &&
-				thisFile.path.includes(this.settings.system_design_root_folder)
+				thisFile.path.includes(
+					this.settings.system_design_root_folder
+				) &&
+				!thisFile.path.includes("Requirements")
 			) {
 				console.log("system design");
 				this.app.workspace.onLayoutReady(() => {
