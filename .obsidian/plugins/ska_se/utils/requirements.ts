@@ -17,7 +17,7 @@ const pinecone = new Pinecone({
 });
 
 const openai = new OpenAI({
-	apiKey: "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", // defaults to process.env["OPENAI_API_KEY"]
+	apiKey: "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", // defaults to process.env["OPENAI_API_KEY"]
 	dangerouslyAllowBrowser: true,
 });
 
