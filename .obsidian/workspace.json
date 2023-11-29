@@ -26,11 +26,14 @@
             "id": "ab420906bdfbe4d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "11-System_design/Payload container.md",
-                "mode": "source",
-                "source": false
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 717.0751217112821,
+                  "y": -25.745098039215684,
+                  "zoom": -0.034933790109387346
+                }
               }
             }
           },
@@ -113,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Payload container.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Payload container.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Payload container.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -178,6 +181,7 @@
   },
   "active": "ab420906bdfbe4d8",
   "lastOpenFiles": [
+    "11-System_design/Payload container.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
@@ -198,7 +202,6 @@
     "69-Obsidian/Rejestr Dokumentów.md",
     "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "12-Interfaces/in.elko.md",
-    "11-System_design/Payload container.md",
     "Obsidian/Interfaces/Test interface.md",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Recovery/Recovery Control Board.md",
