@@ -1,14 +1,1 @@
-{
-	"nodes":[
-		{"type":"group","id":"dnalks4askndaw9q","file":"11-System_design/Recovery/Recovery.md","x":320,"y":-560,"width":760,"height":580,"label":"Recovery"},
-		{"type":"group","id":"0ln97o","file":"11-System_design/Payload.md","x":320,"y":80,"width":760,"height":240,"label":"Payload"},
-		{"id":"2c2bfee34c8b5476","type":"group","file":"11-System_design/Recovery/Recovery System.md","x":400,"y":-220,"width":240,"height":200,"label":"Recovery System"},
-		{"id":"93b5dfaa6dba03c8","type":"group","file":"11-System_design/Recovery/Recovery Control Board.md","x":380,"y":-500,"width":280,"height":120,"label":"Recovery Control Board"},
-		{"id":"98f32aa9cfede9b5","type":"group","file":"11-System_design/Recovery/Nosecone Ejection System.md","x":780,"y":-500,"width":260,"height":120,"label":"Nosecone Ejection System"}
-	],
-	"edges":[
-		{"id":"7743bb435d8311a7","fromNode":"98f32aa9cfede9b5","fromSide":"bottom","toNode":"2c2bfee34c8b5476","toSide":"right","label":"Test interface ⚡ 💻 🛠️"},
-		{"id":"68cb682decf519e4","fromNode":"93b5dfaa6dba03c8","fromSide":"right","toNode":"98f32aa9cfede9b5","toSide":"left","label":"⚠️"},
-		{"id":"ba5ccb33e79bd561","fromNode":"93b5dfaa6dba03c8","fromSide":"bottom","toNode":"2c2bfee34c8b5476","toSide":"top","label":"Test interface ⚡ 💻 🛠️"}
-	]
-}
+{"nodes":[{"type":"group","id":"dnalks4askndaw9q","file":"11-System_design/Recovery/Recovery.md","x":320,"y":-560,"width":760,"height":580,"label":"Recovery"},{"type":"group","id":"0ln97o","file":"11-System_design/Payload.md","x":320,"y":80,"width":760,"height":240,"label":"Payload"},{"id":"2c2bfee34c8b5476","type":"group","file":"11-System_design/Recovery/Recovery System.md","x":400,"y":-220,"width":240,"height":200,"label":"Recovery System"},{"id":"93b5dfaa6dba03c8","type":"group","file":"11-System_design/Recovery/Recovery Control Board.md","x":380,"y":-500,"width":280,"height":120,"label":"Recovery Control Board"},{"id":"98f32aa9cfede9b5","type":"group","file":"11-System_design/Recovery/Nosecone Ejection System.md","x":780,"y":-500,"width":260,"height":120,"label":"Nosecone Ejection System"}],"edges":[{"id":"7743bb435d8311a7","fromNode":"98f32aa9cfede9b5","fromSide":"bottom","toNode":"2c2bfee34c8b5476","toSide":"right","label":"Test interface ⚡ 💻 🛠️"},{"id":"68cb682decf519e4","fromNode":"93b5dfaa6dba03c8","fromSide":"right","toNode":"98f32aa9cfede9b5","toSide":"left","label":"⚠️"},{"id":"ba5ccb33e79bd561","fromNode":"93b5dfaa6dba03c8","fromSide":"bottom","toNode":"2c2bfee34c8b5476","toSide":"top","label":"Test interface ⚡ 💻 🛠️"}]}
