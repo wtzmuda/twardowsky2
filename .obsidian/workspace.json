@@ -26,14 +26,11 @@
             "id": "dbdd2071afe6ee62",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 700,
-                  "y": -120,
-                  "zoom": 0
-                }
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -116,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md"
               }
             }
           }
@@ -182,11 +179,11 @@
   },
   "active": "dbdd2071afe6ee62",
   "lastOpenFiles": [
-    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/Requirements/Requirements.md",
     "11-System_design/System Diagram.canvas",
+    "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.PROP-FEED.VER.5 .md",
-    "11-System_design/Requirements/Requirements.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7 1.md",
