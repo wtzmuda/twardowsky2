@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 .md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 .md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md"
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 .md"
               }
             }
           }
@@ -179,7 +179,8 @@
   },
   "active": "dbdd2071afe6ee62",
   "lastOpenFiles": [
-    "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
+    "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
+    "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 .md",
     "11-System_design/Requirements/Requirements.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Recovery.md",
@@ -207,7 +208,6 @@
     "69-Obsidian/Rejestr Dokumentów.md",
     "12-Interfaces/Test interface ⚡ 💻 🛠️.md",
     "12-Interfaces/in.elko.md",
-    "Obsidian/Interfaces/Test interface.md",
     "01-Model/99-Archive/Nowy Dokument tekstowy.html",
     "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
