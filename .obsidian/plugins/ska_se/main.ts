@@ -756,7 +756,16 @@ async function handleRequirement(file: TFile, app: App) {
 		console.log(result);
 		// Here you can determine what is the output of the comparison algorithm and what to do with it
 		if (result?.includes("YES")) {
-			await frontmatter.postValues(file, [
+			const newData = data.replace(
+				await getSection(file, "Conflict"),
+				""
+			);
+			await this.app.vault.modify(file, newData);
+			await addError(file, this.app);
+			// add result to the file
+			await app.vault.modify(file, newData + `${result}`);
+
+			frontmatter.postValues(file, [
 				{
 					name: "Status",
 					payload: {
@@ -773,16 +782,13 @@ async function handleRequirement(file: TFile, app: App) {
 					},
 				},
 			]);
-			const newData = data.replace(
-				await getSection(file, "Conflict"),
-				""
-			);
-			await this.app.vault.modify(file, newData);
-			await addError(file, this.app);
-			// add result to the file
-			await app.vault.modify(file, newData + `${result}`);
 		} else {
 			await removeError(file, this.app);
+			await this.app.vault.modify(
+				file,
+				data.replace(await getSection(file, "Conflict"), "")
+			);
+
 			frontmatter.postValues(file, [
 				{
 					name: "Status",
@@ -797,10 +803,6 @@ async function handleRequirement(file: TFile, app: App) {
 					},
 				},
 			]);
-			await this.app.vault.modify(
-				file,
-				data.replace(await getSection(file, "Conflict"), "")
-			);
 		}
 	});
 
