@@ -2,8 +2,8 @@
 Title: REQ.TWR2.AVI.DES.10
 Status: in-review
 System: TWR2.AVI
-Class: Requirement
-Conflicting-with: 
+Class:
+  - Requirement
 ---
 
 ## Description

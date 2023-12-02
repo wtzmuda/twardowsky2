@@ -756,7 +756,7 @@ async function handleRequirement(file: TFile, app: App) {
 		console.log(result);
 		// Here you can determine what is the output of the comparison algorithm and what to do with it
 		if (result?.includes("YES")) {
-			frontmatter.postValues(file, [
+			await frontmatter.postValues(file, [
 				{
 					name: "Status",
 					payload: {
@@ -764,7 +764,7 @@ async function handleRequirement(file: TFile, app: App) {
 					},
 				},
 				{
-					name: "Conflicting-with",
+					name: "Conflicting With",
 					payload: {
 						value: result.substring(
 							result.indexOf("[[") + 2,
@@ -791,7 +791,7 @@ async function handleRequirement(file: TFile, app: App) {
 					},
 				},
 				{
-					name: "Conflicting-with",
+					name: "Conflicting With",
 					payload: {
 						value: "",
 					},
