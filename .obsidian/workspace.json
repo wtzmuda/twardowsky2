@@ -26,11 +26,14 @@
             "id": "dbdd2071afe6ee62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "11-System_design/Payload/Payload.md",
-                "mode": "source",
-                "source": false
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 734.8232267245261,
+                  "y": -41.70596997284072,
+                  "zoom": -0.32999999999999996
+                }
               }
             }
           }
@@ -101,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Payload/Payload.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Payload/Payload.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Payload/Payload.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -167,8 +170,10 @@
   },
   "active": "dbdd2071afe6ee62",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
+    "11-System_design/Payload/payload release/payload release.md",
     "11-System_design/Payload/Payload.md",
+    "11-System_design/Payload/payload release",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/payload release/payload release.md",
     "11-System_design/payload release",
     "11-System_design/Payload release/Payload release.md",
@@ -185,7 +190,7 @@
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7 1.md",
     "11-System_design/Requirements ⚠️/Requirements ⚠️.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.12.md",
-    "11-System_design/Payload container.md",
+    "11-System_design/Payload/Payload container.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.DES.24 .md",
@@ -204,7 +209,6 @@
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded",
-    "69-Obsidian/Excalidraw/Scripts",
     "69-Obsidian/assets/Rocket.png",
     "69-Obsidian/assets/Rocket (1).png",
     "69-Obsidian/assets/Pasted image 20230829113855.png",
