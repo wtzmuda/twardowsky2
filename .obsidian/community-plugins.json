@@ -1,5 +1,6 @@
 [
   "dataview",
+  "obsidian-git",
   "drawio-obsidian",
   "obsidian-timelines",
   "metadata-menu",
@@ -8,11 +9,6 @@
   "hot-reload",
   "alx-folder-note",
   "folder-note-core",
-<<<<<<< HEAD
-  "ska-se-obsidian-plugin",
   "dbfolder",
-  "obsidian-git"
-=======
-  "dbfolder"
->>>>>>> origin/obsidian-dev
+  "ska-se-obsidian-plugin"
 ]
