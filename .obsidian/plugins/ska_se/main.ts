@@ -549,7 +549,7 @@ async function handleSystem(file: TFile) {
 
 	const { frontmatter } = pluginHandler.getPlugins();
 	const system = app.metadataCache.getFileCache(file)?.frontmatter?.System;
-	const alias = app.metadataCache.getFileCache(file)?.frontmatter;
+	const alias = app.metadataCache.getFileCache(file)?.frontmatter?.aliases;
 	console.log("alias", alias);
 
 	await frontmatter.postValues(file, [
