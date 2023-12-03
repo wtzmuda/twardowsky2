@@ -27,7 +27,7 @@ models/Waddles_wm.stl
 ## Interfaces
 | Interface Name              | Connecting To              |
 | --------------------------- | -------------------------- |
-| [[Test interface ⚡ 💻 🛠️]] | [[Recovery System]]        |
+| [[Test interface   🛠️]] | [[Recovery System]]        |
 | None⚠️                      | [[Recovery Control Board]] |
 # Documents
 - https://wutwaw.sharepoint.com/:p:/s/StudenckieKooAstronautyczne/EbIYJIRfR6VPkkO9nZclj-QB-T6R7fMReT5LHYfgqlsqNw?e=QNns2q

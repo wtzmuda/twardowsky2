@@ -1,6 +1,5 @@
 [
   "dataview",
-  "obsidian-git",
   "drawio-obsidian",
   "obsidian-timelines",
   "metadata-menu",
@@ -10,5 +9,6 @@
   "alx-folder-note",
   "folder-note-core",
   "ska-se-obsidian-plugin",
-  "dbfolder"
+  "dbfolder",
+  "obsidian-git"
 ]

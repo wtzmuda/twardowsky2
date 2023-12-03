@@ -24,8 +24,8 @@ models/Waddles_wm.stl
 ## Interfaces
 | Interface Name              | Connecting To                |
 | --------------------------- | ---------------------------- |
-| [[Test interface ⚡ 💻 🛠️]] | [[Nosecone Ejection System]] |
-| [[Test interface ⚡ 💻 🛠️]] | [[Recovery Control Board]]   |
+| [[Test interface   🛠️]] | [[Nosecone Ejection System]] |
+| [[Test interface   🛠️]] | [[Recovery Control Board]]   |
 # Documents
 
 # Element's History

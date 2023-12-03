@@ -3,7 +3,9 @@ Connections:
 Class:
   - Interface
 Type:
-  - Electrical
-  - Software
   - Mechanical
 ---
+# Description
+
+## How it works
+
