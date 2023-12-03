@@ -11,9 +11,11 @@
             "id": "304e026f9899a1e5",
             "type": "leaf",
             "state": {
-              "type": "database-plugin",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md"
+                "file": "11-System_design/classes/System.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -77,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 331.5
   },
   "right": {
     "id": "9e993a31bde6bca1",
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md",
+                "file": "11-System_design/classes/System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md",
+                "file": "11-System_design/classes/System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Requirements/Requirements.md"
+                "file": "11-System_design/classes/System.md"
               }
             }
           }
@@ -141,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -156,11 +158,15 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "304e026f9899a1e5",
+  "active": "f2738213849d3a1e",
   "lastOpenFiles": [
+    "11-System_design/classes/Requirement.md",
+    "11-System_design/classes/Interface.md",
+    "11-System_design/classes/Component.md",
+    "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
+    "11-System_design/System Diagram.canvas",
     "69-Obsidian/Obsidian Basics.md",
     "README.md",
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Nosecone Ejection System.md",
     "69-Obsidian/File index template.md",
     "11-System_design/Propulsion/Propulsion.md",
@@ -184,14 +190,11 @@
     "11-System_design/Payload release/Payload release.md",
     "11-System_design/Payload release",
     "11-System_design/Payload",
-    "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.PROP-FEED.VER.5 .md",
     "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7.md",
-    "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7 1.md",
-    "11-System_design/Requirements ⚠️/Requirements ⚠️.md",
     "13-Meetings/Mechanics",
     "13-Meetings",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
