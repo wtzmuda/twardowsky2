@@ -1,14 +1,14 @@
 ---
 Title: REQ.TWR2.PROP.VER.5
-Status: accepted
+Status: in-review
 System: TWR2.PROP
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description
 
-SRAD propulsion systems using liquid propellant(s) shall successfully
-(without significant anomalies) complete a propellant loading and off-loading test in “launch configuration”. This test may be conducted using either actual propellant(s) or suitable proxy fluids. Links to videos and testing data should be posted in your final report.
+SRAD propulsion systems using liquid propellant(s) shall successfully (without significant anomalies) complete a propellant loading and off-loading test in “launch configuration”. This test may be conducted using either actual propellant(s) or suitable proxy fluids. Links to videos and testing data should be posted in your final report.
 
 ## Source
 

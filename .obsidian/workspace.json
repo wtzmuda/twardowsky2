@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "4832bdee5268da9b",
+            "id": "8496e7b11c880a44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,11 +204,14 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "4832bdee5268da9b",
+  "active": "8496e7b11c880a44",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
-    "11-System_design/Requirements/REQ.TWR2.PROP.DES.25 .md",
+    "11-System_design/Requirements/REQ.TWR2.PROP.VER.5 .md",
     "11-System_design/Propulsion/Propulsion.md",
+    "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
+    "11-System_design/System Diagram.canvas",
+    "11-System_design/Requirements/REQ.TWR2.PROP.DES.26 .md",
+    "11-System_design/Requirements/REQ.TWR2.PROP.DES.25 .md",
     "11-System_design/Requirements/REQ.TWR2.PROP.DES.23 .md",
     "11-System_design/Requirements/REQ.TWR2.PROP.HUM.10 .md",
     "11-System_design/Recovery/Recovery System.md",
@@ -236,11 +239,8 @@
     "11-System_design/Payload/Payload Release/,assets",
     "11-System_design/Payload/Payload Release/-assets",
     "11-System_design/Payload/Payload Release",
-    "11-System_design/Payload/payload release/payload release.md",
     "11-System_design/Payload/payload release",
-    "11-System_design/payload release/payload release.md",
     "11-System_design/payload release",
-    "11-System_design/Payload release/Payload release.md",
     "11-System_design/Payload release",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
