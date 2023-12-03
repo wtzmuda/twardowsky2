@@ -2,7 +2,7 @@
 Status: in-review
 System: %system%
 Class: Requirement
-Conflicting-with:
+Conflicting With:
 ---
 
 ## Description

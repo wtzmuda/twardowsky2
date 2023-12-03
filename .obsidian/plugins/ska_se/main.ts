@@ -120,56 +120,6 @@ export default class MyPlugin extends Plugin {
 		statusBarItemEl.setText("Status Bar Text");
 
 		this.addCommand({
-			id: "add-child-component",
-			name: "Add child component",
-			callback: async () => {
-				const currentFile = this.app.workspace.getActiveFile();
-				if (!currentFile) {
-					new Notice("Active file is not a component");
-					return;
-				}
-				const system =
-					app.metadataCache.getFileCache(currentFile)?.frontmatter
-						?.ID;
-
-				if (!system) {
-					new Notice("Active file is not a component");
-					return;
-				}
-				const rootPath = this.settings.system_design_root_folder;
-				let path = rootPath + "/" + currentFile.path.split(".md")[0];
-
-				if (
-					!path
-						.split("/")
-						.slice(0, -1)
-						.join("/")
-						.includes(currentFile.basename)
-				) {
-					// if the parent path does not include the current component's name
-					// then we can add a child component and create a folder for it
-					await app.vault.createFolder(path);
-					await app.fileManager.renameFile(
-						currentFile,
-						path + "/" + path.split("/").pop() + ".md"
-					);
-					(path = path + "/child.md"),
-						console.log(path + "/child.md");
-				} else {
-					// if the parent path includes the current component's name
-					// then we can add a child component without creating a folder
-					path = path.split("/").slice(0, -1).join("/") + "/child.md";
-				}
-				const newComponent = await addComponent({
-					system,
-					path: path,
-				});
-				// open the new file
-				app.workspace.getLeaf(true).openFile(newComponent);
-			},
-		});
-
-		this.addCommand({
 			id: "add-requirements",
 			name: "Add requirement",
 			callback: async () => {
@@ -821,6 +771,7 @@ class CreateComponentModal extends Modal {
 	onOpen() {
 		const { contentEl } = this;
 		const app = this.app;
+		const currentFile = this.app.workspace.getActiveFile();
 		// input with a prompt for component name
 		contentEl.innerHTML = `
 		<h2>Create Component</h2>
@@ -844,11 +795,16 @@ class CreateComponentModal extends Modal {
 			if (!input.value) return;
 			const name = input.value;
 
-			const rootPath = this.settings.system_design_root_folder;
+			if (!currentFile) {
+				new Notice("Active file is not a component");
+				return;
+			}
+			const rootPath = currentFile.path.split(currentFile.basename)[0];
 
 			const newComponent = await addComponent({
 				system: "TWR2",
-				path: rootPath + "/" + name + ".md",
+				path: rootPath,
+				fileName: name,
 			});
 			await addToSystemDiagram({
 				file: newComponent,

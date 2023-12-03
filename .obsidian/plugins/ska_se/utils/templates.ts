@@ -49,10 +49,12 @@ export async function addRequirement(args: AddRequirementArgs) {
 export async function addComponent({
 	system,
 	path,
+	fileName,
 	id,
 }: {
 	system: string;
 	path: string;
+	fileName: string;
 	id?: string;
 }) {
 	const app = pluginHandler.app;
@@ -69,7 +71,12 @@ export async function addComponent({
 		data = data.replace(/%id%/g, id.toUpperCase().replace(/ /g, "_"));
 	}
 
-	return await app.vault.create(path, data);
+	await app.vault.createFolder(path + "/" + fileName);
+
+	return await app.vault.create(
+		path + "/" + fileName + "/" + fileName + ".md",
+		data
+	);
 }
 
 export async function addToSystemDiagram({
