@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/classes/System.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/classes/System.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/classes/System.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/classes/System.md"
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
               }
             }
           }
@@ -158,13 +158,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "f2738213849d3a1e",
+  "active": "304e026f9899a1e5",
   "lastOpenFiles": [
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Recovery/Recovery System.md",
+    "11-System_design/System Diagram.canvas",
+    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/classes/System.md",
     "11-System_design/classes/Requirement.md",
     "11-System_design/classes/Interface.md",
     "11-System_design/classes/Component.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
-    "11-System_design/System Diagram.canvas",
     "69-Obsidian/Obsidian Basics.md",
     "README.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
@@ -176,7 +180,6 @@
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
     "11-System_design/Payload/Payload.md",
     "11-System_design/Payload/Payload Release/Payload Release.md",
-    "11-System_design/Recovery/Recovery.md",
     "03-Design_documentation/04-Propulsion/Thermal_insulation_analysis.pdf",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
     "11-System_design/Propulsion/Igniters.md",
@@ -192,9 +195,6 @@
     "11-System_design/Payload",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
-    "11-System_design/Requirements/REQ.TWR2.PROP-FEED.VER.5 .md",
-    "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
-    "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.7.md",
     "13-Meetings/Mechanics",
     "13-Meetings",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
