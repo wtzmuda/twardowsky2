@@ -51,7 +51,7 @@ async function getEmbedMarkdown({
 	}
 	return text
 		.split("\n")
-		.map((line: string) => `${line}`)
+		.map((line: string) => line.trim())
 		.join(" ");
 }
 

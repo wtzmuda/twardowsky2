@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
+                "file": "11-System_design/Propulsion/Propulsion.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
+                "file": "11-System_design/Propulsion/Propulsion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
+                "file": "11-System_design/Propulsion/Propulsion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md"
+                "file": "11-System_design/Propulsion/Propulsion.md"
               }
             }
           }
@@ -206,9 +206,9 @@
   },
   "active": "8496e7b11c880a44",
   "lastOpenFiles": [
+    "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
     "11-System_design/Propulsion/Propulsion.md",
     "11-System_design/Requirements/REQ.TWR2.PROP.VER.6 ❌.md",
-    "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
     "11-System_design/Requirements/REQ.TWR2.PROP.VER.5 .md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/REQ.TWR2.PROP.DES.26 .md",
