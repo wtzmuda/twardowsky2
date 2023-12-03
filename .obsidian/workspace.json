@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "69-Obsidian/Obsidian Basics.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "69-Obsidian/Obsidian Basics.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "69-Obsidian/Obsidian Basics.md",
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "69-Obsidian/Obsidian Basics.md"
+                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "304e026f9899a1e5",
   "lastOpenFiles": [
-    "11-System_design/System Diagram.canvas",
     "69-Obsidian/Obsidian Basics.md",
+    "11-System_design/System Diagram.canvas",
     "69-Obsidian/File index template.md",
     "11-System_design/Propulsion/Propulsion.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
