@@ -1,0 +1,43 @@
+---
+Class:
+  - System
+Interfacing with: 
+System: TWR2.RECOVERY
+ID: TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM
+Subsystems: 
+Model: TWR.2A.4.03.02.001
+---
+
+Mass: (Mass:: 0)
+
+## Description
+
+The TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM is designed to facilitate the safe separation and ejection of the nose cone from the main body of the rocket during the recovery phase. It comprises mechanical and pyrotechnic components that work in tandem to ensure a timely and reliable deployment of the recovery system. The system is triggered by the Recovery Control Board and is critical for preserving the integrity of the payload during re-entry or descent.
+
+```stlrendera
+models/Waddles_wm.stl
+```
+
+## Requirements
+| Description | Source                                              |
+| ----------- | --------------------------------------------------- |
+|             | [[REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md]] |
+## Tests
+
+## Interfaces
+| Interface Name              | Connecting To              |
+| --------------------------- | -------------------------- |
+| [[Test interface   🛠️]] | [[Recovery System]]        |
+| None⚠️                      | [[Recovery Control Board]] |
+# Documents
+- https://wutwaw.sharepoint.com/:p:/s/StudenckieKooAstronautyczne/EbIYJIRfR6VPkkO9nZclj-QB-T6R7fMReT5LHYfgqlsqNw?e=QNns2q
+- [[Thermal_insulation_analysis.pdf]]
+# Part history
+- 18.11.2023
+	- Zmiana nazwy na cośtam
+	- Dodanie property "Model"
+
+# Order History
+- Initial Order: [Date], [Supplier], [Quantity], [Unit Price]
+- Reorder: [Date], [Supplier], [Quantity], [Unit Price]
+- Last Purchase: [Date], [Supplier], [Quantity], [Unit Price]

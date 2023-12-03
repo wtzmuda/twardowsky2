@@ -1,0 +1,11 @@
+---
+Status: in-review
+System: TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM
+Class: Requirement
+Conflicting-with:
+ID: TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1
+---
+
+## Description
+
+## Source

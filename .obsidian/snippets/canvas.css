@@ -1,0 +1,5 @@
+.canvas-node-subsystem {
+  /* make it important */
+  pointer-events: all !important;
+  cursor: pointer;
+}

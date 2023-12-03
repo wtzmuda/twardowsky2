@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"group","id":"dnalks4askndaw9q","file":"11-System_design/Recovery/Recovery.md","x":320,"y":-560,"width":760,"height":580,"label":"Recovery"},
+		{"id":"9259c984cdcf19cd","type":"group","file":"11-System_design/Propulsion/Propulsion.md","x":320,"y":380,"width":760,"height":260,"label":"Propulsion"},
+		{"type":"group","id":"0ln97o","file":"11-System_design/Payload/Payload.md","x":320,"y":80,"width":760,"height":240,"label":"Payload"},
+		{"type":"group","id":"","file":"11-System_design/Payload/Control Board/Control Board.md","x":340,"y":100,"width":300,"height":200,"label":"Control Board"},
+		{"id":"2c2bfee34c8b5476","type":"group","file":"11-System_design/Recovery/Recovery System.md","x":400,"y":-220,"width":240,"height":200,"label":"Recovery System"},
+		{"id":"93b5dfaa6dba03c8","type":"group","file":"11-System_design/Recovery/Recovery Control Board.md","x":380,"y":-500,"width":280,"height":120,"label":"Recovery Control Board"},
+		{"id":"98f32aa9cfede9b5","type":"group","file":"11-System_design/Recovery/Nosecone Ejection System.md","x":780,"y":-500,"width":260,"height":120,"label":"Nosecone Ejection System"}
+	],
+	"edges":[
+		{"id":"68cb682decf519e4","fromNode":"93b5dfaa6dba03c8","fromSide":"right","toNode":"98f32aa9cfede9b5","toSide":"left","label":"⚠️"},
+		{"id":"ba5ccb33e79bd561","fromNode":"93b5dfaa6dba03c8","fromSide":"bottom","toNode":"2c2bfee34c8b5476","toSide":"top","label":"Test interface ⚡ 💻 🛠️"},
+		{"id":"54bddf20ad9bf45e","fromNode":"98f32aa9cfede9b5","fromSide":"bottom","toNode":"2c2bfee34c8b5476","toSide":"right","label":"⚠️"}
+	]
+}
