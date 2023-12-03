@@ -42,15 +42,15 @@
               "state": {
                 "file": "11-System_design/System Diagram.canvas",
                 "viewState": {
-                  "x": 914.9755403638859,
-                  "y": -96.1816504613307,
+                  "x": 882.3318688611458,
+                  "y": 4.547744349086713,
                   "zoom": -0.48441593978941827
                 }
               }
             }
           },
           {
-            "id": "19b089d00c9773e8",
+            "id": "ee3eb14e8ad782ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,11 +204,13 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "19b089d00c9773e8",
+  "active": "ee3eb14e8ad782ae",
   "lastOpenFiles": [
-    "11-System_design/Payload/Payload Release/Payload Release.md",
-    "11-System_design/Propulsion/Propulsion.md",
     "11-System_design/System Diagram.canvas",
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Requirements/REQ.TWR2.PROP.DES.23 .md",
+    "11-System_design/Propulsion/Propulsion.md",
+    "11-System_design/Payload/Payload Release/Payload Release.md",
     "11-System_design/Recovery/Recovery System.md",
     "11-System_design/Payload/Payload.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
@@ -221,7 +223,6 @@
     "11-System_design/Payload/Control Board",
     "12-Interfaces/Test interface   🛠️.md",
     "12-Interfaces/in.elko.md",
-    "11-System_design/Recovery/Recovery Control Board.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
     "69-Obsidian/File index template.md",
@@ -241,7 +242,6 @@
     "11-System_design/Payload release",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
-    "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "69-Obsidian/assets/Rocket.png",
