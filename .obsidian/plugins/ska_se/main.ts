@@ -549,7 +549,7 @@ async function handleSystem(file: TFile) {
 
 	const { frontmatter } = pluginHandler.getPlugins();
 	const system = app.metadataCache.getFileCache(file)?.frontmatter?.System;
-	const alias = app.metadataCache.getFileCache(file)?.frontmatter;
+	const alias = app.metadataCache.getFileCache(file)?.frontmatter?.Alias;
 	console.log("alias", alias);
 
 	await frontmatter.postValues(file, [
@@ -559,8 +559,8 @@ async function handleSystem(file: TFile) {
 				value:
 					system +
 					"." +
-					(alias
-						? alias.toUpperCase().trim()
+					(alias[0]
+						? alias[0].toUpperCase().trim()
 						: file.basename
 								.replace(/[^\w.,\s]/g, "")
 								.toUpperCase()
