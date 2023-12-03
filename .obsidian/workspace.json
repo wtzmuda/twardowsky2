@@ -158,20 +158,21 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "ska-se-obsidian-plugin:SKA SE": false
     }
   },
   "active": "489babcb21ca2e6f",
   "lastOpenFiles": [
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
+    "11-System_design/Recovery/Recovery System.md",
     "12-Interfaces/Test interface   🛠️.md",
     "11-System_design/Payload/Control Board/Control Board.md",
     "11-System_design/Payload/Control Board",
-    "11-System_design/Recovery/Recovery Control Board.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
     "69-Obsidian/Excalidraw/Drawing 2023-09-25 21.46.30.excalidraw.md",
     "69-Obsidian/Excalidraw/Drawing 2023-09-25 21.42.03.excalidraw.md",
     "11-System_design/Payload/Payload.md",
-    "11-System_design/Recovery/Recovery System.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/classes/System.md",
