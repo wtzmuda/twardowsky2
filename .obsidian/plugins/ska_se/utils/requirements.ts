@@ -52,7 +52,7 @@ async function getEmbedMarkdown({
 	return text
 		.split("\n")
 		.map((line: string) => `${line}`)
-		.join("\n");
+		.join(" ");
 }
 
 export async function interfacesTable(file: TFile) {
