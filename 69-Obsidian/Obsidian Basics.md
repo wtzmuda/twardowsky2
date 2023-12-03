@@ -17,8 +17,6 @@ Markdown is a lightweight markup language designed for formatting text on the we
 
 for a code block. Markdown's ease of use and readability have made it a favorite for writing documentation, notes, and even books, especially in programming and technical fields.
 
-[[Propulsion]]
-
 ### 4. Using TWR2 Obsidian Vault
 
 First of all, you can use Obsidian as a normal file explorer to create, update, reorganize and delete files. You can use the simple file explorer on the left to do this.
