@@ -549,28 +549,20 @@ async function handleSystem(file: TFile) {
 
 	const { frontmatter } = pluginHandler.getPlugins();
 	const system = app.metadataCache.getFileCache(file)?.frontmatter?.System;
-	console.log(
-		file,
-		system +
-			"." +
-			file.basename
-				.replace(/[^\w.,\s]/g, "")
-				.toUpperCase()
-				.trim()
-				.replace(/ /g, "_")
-	);
+	const alias = app.metadataCache.getFileCache(file)?.frontmatter?.Alias;
+
 	await frontmatter.postValues(file, [
 		{
 			name: "ID",
 			payload: {
 				value:
-					system +
-					"." +
-					file.basename
-						.replace(/[^\w.,\s]/g, "")
-						.toUpperCase()
-						.trim()
-						.replace(/ /g, "_"),
+					system + "." + alias
+						? alias.toUpperCase().trim()
+						: file.basename
+								.replace(/[^\w.,\s]/g, "")
+								.toUpperCase()
+								.trim()
+								.replace(/ /g, "_"),
 			},
 		},
 	]);
