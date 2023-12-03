@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
+                "file": "69-Obsidian/Obsidian Basics.md"
               }
             }
           }
@@ -159,8 +158,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "489babcb21ca2e6f",
+  "active": "304e026f9899a1e5",
   "lastOpenFiles": [
+    "README.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "69-Obsidian/Obsidian Basics.md",
     "11-System_design/System Diagram.canvas",
     "69-Obsidian/File index template.md",
@@ -168,7 +169,6 @@
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
     "11-System_design/Requirements/REQ.TWR2.PROP.DES.11 .md",
     "11-System_design/Requirements/Requirements.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
     "11-System_design/Payload/Payload.md",
     "11-System_design/Payload/Payload Release/Payload Release.md",
