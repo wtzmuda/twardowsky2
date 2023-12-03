@@ -4,7 +4,6 @@ Class:
 System: TWR2
 ID: TWR2.PROPULSION
 Alias:
-  - PROP
 ---
 
 Mass: (Mass:: 0)
