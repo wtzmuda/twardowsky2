@@ -26,14 +26,11 @@
             "id": "dbdd2071afe6ee62",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 700,
-                  "y": -120,
-                  "zoom": 0
-                }
+                "file": "11-System_design/Payload/Payload.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -116,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Payload/Payload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/System Diagram.canvas",
+                "file": "11-System_design/Payload/Payload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/System Diagram.canvas"
+                "file": "11-System_design/Payload/Payload.md"
               }
             }
           }
@@ -180,15 +177,16 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "dbdd2071afe6ee62",
+  "active": "f2738213849d3a1e",
   "lastOpenFiles": [
+    "11-System_design/Payload",
+    "11-System_design/System Diagram.canvas",
     "11-System_design/Payload release/Payload release.md",
-    "11-System_design/Payload.md",
+    "11-System_design/Payload/Payload.md",
     "11-System_design/Payload release",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
     "11-System_design/Requirements/Requirements.md",
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.PROP-FEED.VER.5 .md",
@@ -211,7 +209,6 @@
     "11-System_design/testt.md",
     "11-System_design/test.md",
     "11-System_design/test component.md",
-    "69-Obsidian/Rejestr Dokumentów.md",
     "01-Model/99-Archive/Nowy Dokument tekstowy.html",
     "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
     "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
