@@ -791,6 +791,8 @@ class CreateComponentModal extends Modal {
 			"#is-component"
 		) as HTMLInputElement;
 
+		const isCanvas = currentFile?.extension === "canvas";
+
 		async function handleCreate() {
 			if (!input.value) return;
 			const name = input.value;
@@ -799,7 +801,10 @@ class CreateComponentModal extends Modal {
 				new Notice("Active file is not a component");
 				return;
 			}
-			const rootPath = currentFile.path.split(currentFile.name)[0];
+			let rootPath = currentFile.path.split(currentFile.name)[0];
+			if (isCanvas) {
+				rootPath = this.settings.system_design_root_folder;
+			}
 
 			const newComponent = await addComponent({
 				system: "TWR2",

@@ -45,7 +45,7 @@ Other folders contain the project's architecture. It should contain hierarchical
 	- `add requirement` to add requirement
 
 **Important**
-When creating any file from the command palette, make sure that the template is filled out such that all the fields are clear and readable.
+After creating any file from the command palette, make sure that the template is filled out such that all the fields are clear and readable.
 
 ##### 4.2.1 Managing individual systems and subsystems
 - Adding models
