@@ -45,7 +45,7 @@ async function getEmbedMarkdown({
 					headings[hIdx].position.start.line + 1,
 					headings[hIdx + 1]?.position?.start?.line
 				)
-				.join("\n")
+				.join(" ")
 				.trim();
 		}
 	}
