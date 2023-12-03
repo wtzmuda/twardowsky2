@@ -47,6 +47,18 @@
             }
           },
           {
+            "id": "0f8d148da9c4485d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3388a5d2a6d8227b",
             "type": "leaf",
             "state": {
@@ -71,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -201,10 +213,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "551e5e973c9f9840",
+  "active": "0f8d148da9c4485d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "11-System_design/Recovery/Nosecone Ejection System.md",
+    "conflict-files-obsidian-git.md",
     "gitignore",
     "Nowy Dokument tekstowy.txt",
     "11-System_design/System Diagram.canvas",
