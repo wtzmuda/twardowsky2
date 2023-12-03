@@ -7,8 +7,7 @@ Class: Requirement
 
 ## Description
 
-Non-metallic cases shall not be made of brittle materials which may rupture into
-sharp shards, such as PVC or other low-temperature polymers
+Non-metallic cases shall not be made of brittle materials which may rupture into sharp shards, such as PVC or other low-temperature polymers
 
 ## Source
 
