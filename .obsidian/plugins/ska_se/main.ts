@@ -791,8 +791,6 @@ class CreateComponentModal extends Modal {
 			"#is-component"
 		) as HTMLInputElement;
 
-		const isCanvas = currentFile?.extension === "canvas";
-
 		async function handleCreate() {
 			if (!input.value) return;
 			const name = input.value;
