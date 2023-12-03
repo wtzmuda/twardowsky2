@@ -3,7 +3,7 @@ Class:
   - System
 System: TWR2
 ID: 
-aliases:
+Alias:
   - PROP
 ---
 
