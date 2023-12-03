@@ -11,12 +11,8 @@
             "id": "2e7bd8d5725fea92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-System_design/Payload/Payload.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Payload/Payload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Payload/Payload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "11-System_design/Payload/Payload.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -151,6 +143,52 @@
   },
   "active": "2e7bd8d5725fea92",
   "lastOpenFiles": [
-    "README.md"
+    "13-Meetings/Mechanics/20.11.2023.md",
+    "13-Meetings/Mechanics",
+    "13-Meetings",
+    "12-Interfaces/Test interface   🛠️.md",
+    "12-Interfaces/in.elko.md",
+    "12-Interfaces",
+    "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
+    "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.md",
+    "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
+    "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.md",
+    "69-Obsidian/Excalidraw/Scripts/Downloaded",
+    "69-Obsidian/Excalidraw/Drawing 2023-09-25 21.46.30.excalidraw.md",
+    "69-Obsidian/Excalidraw/Scripts",
+    "69-Obsidian/Excalidraw/Drawing 2023-09-25 21.42.03.excalidraw.md",
+    "69-Obsidian/assets/Rocket.png",
+    "69-Obsidian/assets/Rocket (1).png",
+    "69-Obsidian/assets/Pasted image 20230829113855.png",
+    "69-Obsidian/assets/d829cbd0641f3bd4cf8f4fbd009d9092.png",
+    "69-Obsidian/TODO.md",
+    "69-Obsidian/Rejestr Dokumentów.md",
+    "69-Obsidian/Obsidian Basics.md",
+    "69-Obsidian/File index template.md",
+    "69-Obsidian/Excalidraw",
+    "69-Obsidian/assets",
+    "69-Obsidian",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent",
+    "11-System_design/Payload/Control Board/Control Board.md",
+    "11-System_design/Payload/payload release/payload release.md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors",
+    "11-System_design/Requirements/Requirements.md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41 .md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41  1.md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.40 .md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.4 .md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.37 ⚠️.md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.36 .md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.32 .md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.30 .md",
+    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.3 .md",
+    "11-System_design/System Diagram.canvas",
+    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/pathlines-1.png",
+    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/contour-3.png",
+    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/contour-2.png",
+    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/contour-1.png"
   ]
 }
