@@ -1,48 +1,70 @@
 {
   "main": {
-    "id": "77cb0aa30ff946f2",
+    "id": "dc322824b6f8b148",
     "type": "split",
     "children": [
       {
-        "id": "662e45c2afdfc7d5",
+        "id": "034f86b00c5fe3b7",
         "type": "tabs",
         "children": [
           {
-            "id": "2e7bd8d5725fea92",
+            "id": "a1b0a082dce16649",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 722.0582366974476,
+                  "y": -73.36843769807352,
+                  "zoom": -0.2668104286221129
+                }
+              }
             }
           },
           {
-            "id": "b8fdd63db2292491",
+            "id": "304e026f9899a1e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "551e5e973c9f9840",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "11-System_design/System Diagram.canvas",
+                "viewState": {
+                  "x": 887.2837594015972,
+                  "y": -53.95179224198783,
+                  "zoom": -0.05441593978941818
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8b6e899e681abb02",
+    "id": "bac3c38493df9788",
     "type": "split",
     "children": [
       {
-        "id": "33a5b33d546af842",
+        "id": "6a65b5fa2d0d8bc0",
         "type": "tabs",
         "children": [
           {
-            "id": "08fa6fa295f00423",
+            "id": "f2738213849d3a1e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +74,7 @@
             }
           },
           {
-            "id": "97ba338dff74b1a8",
+            "id": "3733a52bccc5e372",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +89,7 @@
             }
           },
           {
-            "id": "a00fde189b5708bd",
+            "id": "56394ff1e1b64d1e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +100,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 331.5
   },
   "right": {
-    "id": "4d7bef7cd6ecba49",
+    "id": "9e993a31bde6bca1",
     "type": "split",
     "children": [
       {
-        "id": "878e38cc83ca6294",
+        "id": "06a3e6ca5e36762a",
         "type": "tabs",
         "children": [
           {
-            "id": "620feee499f9442a",
+            "id": "4b3d07d3d81bd2cc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +128,19 @@
             }
           },
           {
-            "id": "5b2a3d967f6f6fff",
+            "id": "2a036e34f0ba9216",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "11-System_design/System Diagram.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "40c8ca5284a57122",
+            "id": "5f138dbf0e440251",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,12 +151,12 @@
             }
           },
           {
-            "id": "b1eb08d3bd06aa3d",
+            "id": "120c28862f925960",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "11-System_design/System Diagram.canvas"
               }
             }
           }
@@ -147,65 +169,68 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "dbfolder:Create a new database table": false,
-      "ska-se-obsidian-plugin:SKA SE": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "ska-se-obsidian-plugin:SKA SE": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "b8fdd63db2292491",
+  "active": "551e5e973c9f9840",
   "lastOpenFiles": [
+    "11-System_design/Payload/Payload Release/Payload Release.md",
+    "11-System_design/System Diagram.canvas",
+    "11-System_design/Payload/Payload.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "conflict-files-obsidian-git.md",
-    "13-Meetings/Mechanics/20.11.2023.md",
-    "13-Meetings/Mechanics",
-    "13-Meetings",
+    "gitignore",
+    "Nowy Dokument tekstowy.txt",
+    "69-Obsidian/Obsidian Basics.md",
+    "11-System_design/Requirements/Requirements.md",
+    "11-System_design/Payload/Control Board/Control Board.md",
+    "11-System_design/Payload/Control Board",
     "12-Interfaces/Test interface   🛠️.md",
     "12-Interfaces/in.elko.md",
-    "12-Interfaces",
+    "11-System_design/Recovery/Recovery Control Board.md",
+    "11-System_design/Propulsion/Propulsion.md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
+    "69-Obsidian/File index template.md",
+    "11-System_design/Requirements/REQ.TWR2.PROP.DES.11 .md",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
+    "11-System_design/Recovery/Recovery.md",
+    "03-Design_documentation/04-Propulsion/Thermal_insulation_analysis.pdf",
+    "11-System_design/Propulsion/Igniters.md",
+    "11-System_design/Payload/Payload Release/,assets",
+    "11-System_design/Payload/Payload Release/-assets",
+    "11-System_design/Payload/Payload Release",
+    "11-System_design/Payload/payload release/payload release.md",
+    "11-System_design/Payload/payload release",
+    "11-System_design/payload release/payload release.md",
+    "11-System_design/payload release",
+    "11-System_design/Payload release/Payload release.md",
+    "11-System_design/Payload release",
+    "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
+    "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
+    "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
+    "11-System_design/Requirements/REQ.TWR2.PROP-FEED.VER.5 .md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
-    "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.md",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
-    "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.md",
-    "69-Obsidian/Excalidraw/Scripts/Downloaded",
-    "69-Obsidian/Excalidraw/Drawing 2023-09-25 21.46.30.excalidraw.md",
-    "69-Obsidian/Excalidraw/Scripts",
-    "69-Obsidian/Excalidraw/Drawing 2023-09-25 21.42.03.excalidraw.md",
     "69-Obsidian/assets/Rocket.png",
     "69-Obsidian/assets/Rocket (1).png",
     "69-Obsidian/assets/Pasted image 20230829113855.png",
     "69-Obsidian/assets/d829cbd0641f3bd4cf8f4fbd009d9092.png",
-    "69-Obsidian/TODO.md",
-    "69-Obsidian/Rejestr Dokumentów.md",
-    "69-Obsidian/Obsidian Basics.md",
-    "69-Obsidian/File index template.md",
-    "69-Obsidian/Excalidraw",
-    "69-Obsidian/assets",
-    "69-Obsidian",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent",
-    "11-System_design/Payload/Control Board/Control Board.md",
-    "11-System_design/Payload/payload release/payload release.md",
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors",
-    "11-System_design/Requirements/Requirements.md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.41  1.md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.40 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.4 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.37 ⚠️.md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.36 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.32 .md",
-    "11-System_design/Requirements/REQ.TWR2.ROCKET.PHYS.30 .md",
-    "11-System_design/System Diagram.canvas",
-    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/pathlines-1.png",
-    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/contour-3.png",
-    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/contour-2.png",
-    "06-Research/07-Analysis/03-fluent/Injectors_simulation/geom_without_igniter/alt/alternative_hybrid_test_files/progress_files/dp0/FLTG/Fluent/contour-1.png"
+    "Requirements.canvas",
+    "Rocket Systems/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Untitled Diagram.svg",
+    "Functional Diagram.canvas",
+    "Rocket Systems/Untitled Diagram.svg",
+    "Rocket Systems/Propulsion.canvas",
+    "Hybrid_Rocket_Design.canvas",
+    "Hybrid_Rocket_Design_Semantic.canvas",
+    "TWR2 System Diagram.svg"
   ]
 }
