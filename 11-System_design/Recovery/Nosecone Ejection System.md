@@ -31,7 +31,7 @@ models/Waddles_wm.stl
 | None⚠️                      | [[Recovery Control Board]] |
 # Documents
 - https://wutwaw.sharepoint.com/:p:/s/StudenckieKooAstronautyczne/EbIYJIRfR6VPkkO9nZclj-QB-T6R7fMReT5LHYfgqlsqNw?e=QNns2q
-- Faktura 2
+- [[Thermal_insulation_analysis.pdf]]
 # Part history
 - 18.11.2023
 	- Zmiana nazwy na cośtam

@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "dbdd2071afe6ee62",
+            "id": "304e026f9899a1e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Propulsion/Propulsion.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Propulsion/Propulsion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md",
+                "file": "11-System_design/Propulsion/Propulsion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Recovery/Nosecone Ejection System.md"
+                "file": "11-System_design/Propulsion/Propulsion.md"
               }
             }
           }
@@ -165,20 +165,23 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "dbdd2071afe6ee62",
+  "active": "304e026f9899a1e5",
   "lastOpenFiles": [
-    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
-    "11-System_design/Propulsion/Propulsion.md",
+    "11-System_design/Recovery/Nosecone Ejection System.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
+    "11-System_design/Propulsion/Propulsion.md",
+    "11-System_design/Payload/Payload.md",
+    "11-System_design/Payload/Payload Release/Payload Release.md",
+    "11-System_design/Recovery/Recovery.md",
+    "11-System_design/System Diagram.canvas",
+    "03-Design_documentation/04-Propulsion/Thermal_insulation_analysis.pdf",
+    "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
     "11-System_design/Propulsion/Igniters.md",
     "69-Obsidian/Obsidian Basics.md",
     "69-Obsidian/File index template.md",
-    "11-System_design/System Diagram.canvas",
-    "11-System_design/Payload/Payload Release/Payload Release.md",
     "11-System_design/Payload/Payload Release/,assets",
     "11-System_design/Payload/Payload Release/-assets",
-    "11-System_design/Payload/Payload.md",
     "11-System_design/Payload/Payload Release",
     "11-System_design/Payload/payload release/payload release.md",
     "11-System_design/Payload/payload release",
@@ -190,7 +193,6 @@
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.DES.10.md",
     "11-System_design/Requirements/Requirements.md",
-    "11-System_design/Recovery/Recovery.md",
     "11-System_design/Requirements/REQ.TWR2.AVI.CONF.7.md",
     "11-System_design/Requirements/REQ.TWR2.PROP-FEED.VER.5 .md",
     "11-System_design/Requirements/REQ.TWR2.AVI.MISSION.26 .md",
@@ -199,11 +201,8 @@
     "11-System_design/Requirements ⚠️/Requirements ⚠️.md",
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.12.md",
     "11-System_design/Payload/Payload container.md",
-    "11-System_design/Recovery/Nosecone Ejection System.md",
-    "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.DES.20 ❌.md",
     "13-Meetings/Mechanics",
     "13-Meetings",
-    "01-Model/99-Archive/Nowy Dokument tekstowy.html",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "69-Obsidian/assets/Rocket.png",
