@@ -799,7 +799,7 @@ class CreateComponentModal extends Modal {
 				new Notice("Active file is not a component");
 				return;
 			}
-			const rootPath = currentFile.path.split(currentFile.basename)[0];
+			const rootPath = currentFile.path.split(currentFile.name)[0];
 
 			const newComponent = await addComponent({
 				system: "TWR2",
