@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Payload/Payload.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,24 +36,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "59754ed03cb1b3e1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5e8ee9bb7d90600f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-System_design/Payload/Payload Release/Payload Release.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Payload/Payload Release/Payload Release.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Payload/Payload Release/Payload Release.md",
+                "file": "69-Obsidian/Obsidian Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Payload/Payload Release/Payload Release.md"
+                "file": "69-Obsidian/Obsidian Basics.md"
               }
             }
           }
@@ -183,13 +165,16 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "f2738213849d3a1e",
+  "active": "dbdd2071afe6ee62",
   "lastOpenFiles": [
+    "69-Obsidian/File index template.md",
+    "69-Obsidian/Obsidian Basics.md",
+    "11-System_design/System Diagram.canvas",
+    "11-System_design/Payload/Payload Release/Payload Release.md",
+    "11-System_design/Payload/Payload Release/,assets",
     "11-System_design/Payload/Payload Release/-assets",
     "11-System_design/Payload/Payload.md",
-    "11-System_design/Payload/Payload Release/Payload Release.md",
     "11-System_design/Payload/Payload Release",
-    "11-System_design/System Diagram.canvas",
     "11-System_design/Payload/payload release/payload release.md",
     "11-System_design/Payload/payload release",
     "11-System_design/payload release/payload release.md",
@@ -216,12 +201,9 @@
     "11-System_design/Requirements ⚠️/REQ.TWR2.AVI.CONF.8 ⚠️.md",
     "11-System_design/Recovery/Recovery System.md",
     "13-Meetings/Mechanics/20.11.2023.md",
-    "11-System_design/SOR.md",
     "13-Meetings/Mechanics",
     "13-Meetings",
     "01-Model/99-Archive/Nowy Dokument tekstowy.html",
-    "01-Model/99-Archive/Nowy Dokument tekstowy.txt",
-    "05-Tests_documentation/04-Propulsion/398508498_24097331503244568_4765475094997999875_n.mp4",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Split Ellipse.svg",
     "69-Obsidian/Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "69-Obsidian/assets/Rocket.png",

@@ -72,7 +72,6 @@ export async function addComponent({
 	}
 
 	await app.vault.createFolder(path + "/" + fileName);
-	await app.vault.createFolder(path + "/" + fileName + "/.assets");
 
 	return await app.vault.create(
 		path + "/" + fileName + "/" + fileName + ".md",
