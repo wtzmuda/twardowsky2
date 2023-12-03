@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1b0a082dce16649",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "11-System_design/System Diagram.canvas",
-                "viewState": {
-                  "x": 722.0582366974476,
-                  "y": -73.36843769807352,
-                  "zoom": -0.2668104286221129
-                }
-              }
-            }
-          },
-          {
             "id": "304e026f9899a1e5",
             "type": "leaf",
             "state": {
@@ -34,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,16 +145,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "ska-se-obsidian-plugin:SKA SE": false,
       "dbfolder:Create a new database table": false
     }
   },
   "active": "304e026f9899a1e5",
   "lastOpenFiles": [
-    "69-Obsidian/File index template.md",
-    "11-System_design/Propulsion/Propulsion.md",
     "11-System_design/System Diagram.canvas",
     "69-Obsidian/Obsidian Basics.md",
+    "69-Obsidian/File index template.md",
+    "11-System_design/Propulsion/Propulsion.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
     "11-System_design/Requirements/REQ.TWR2.PROP.DES.11 .md",
     "11-System_design/Requirements/Requirements.md",
