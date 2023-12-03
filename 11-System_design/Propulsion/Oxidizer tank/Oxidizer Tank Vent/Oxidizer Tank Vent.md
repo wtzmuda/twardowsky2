@@ -19,11 +19,9 @@ models/Waddles_wm.stl
 ## Requirements
 | Description  | Source                                                       |
 | ------------ | ------------------------------------------------------------ |
-| hasdkhasd kj | [[REQ.TWR2.PROP.OXIDIZER_TANK.OXIDIZER_TANK_VENT.260 ⚠️]] |
+| hasdkhasd kj | [[REQ.TWR2.PROP.OXIDIZER_TANK.OXIDIZER_TANK_VENT.260 ⚠️.md]] |
 
 ## Tests
-- [[Igniters Test n.2 1|Igniters Test n.2 1]] 	❌
-
 ## Interfaces
 | Interface Name                   | Connecting To             |
 | -------------------------------- | ------------------------- |

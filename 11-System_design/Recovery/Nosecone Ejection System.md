@@ -21,7 +21,7 @@ models/Waddles_wm.stl
 ## Requirements
 | Description | Source                                              |
 | ----------- | --------------------------------------------------- |
-|             | [[REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1]] |
+|             | [[REQ.TWR2.RECOVERY.NOSECONE_EJECTION_SYSTEM.1.md]] |
 ## Tests
 
 ## Interfaces
@@ -30,7 +30,7 @@ models/Waddles_wm.stl
 | [[Test interface ⚡ 💻 🛠️]] | [[Recovery System]]        |
 | None⚠️                      | [[Recovery Control Board]] |
 # Documents
-- Faktura 1
+- https://wutwaw.sharepoint.com/:p:/s/StudenckieKooAstronautyczne/EbIYJIRfR6VPkkO9nZclj-QB-T6R7fMReT5LHYfgqlsqNw?e=QNns2q
 - Faktura 2
 # Part history
 - 18.11.2023

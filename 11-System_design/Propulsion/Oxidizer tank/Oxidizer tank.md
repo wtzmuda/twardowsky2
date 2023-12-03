@@ -11,9 +11,6 @@ Mass: (Mass:: 0)
 - Diameter should not exceed 200 mm
 
 ## Tests
-- [[Igniters Test n.1|Igniters Test n.1]] 	✅
-- [[Igniters Test n.2|Igniters Test n.2]] 	❌
-
 ### Interfaces
 - bolted on bottom end
 - bolted on top end
