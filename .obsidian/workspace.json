@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "489babcb21ca2e6f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "304e026f9899a1e5",
+  "active": "489babcb21ca2e6f",
   "lastOpenFiles": [
     "69-Obsidian/Obsidian Basics.md",
     "11-System_design/System Diagram.canvas",
