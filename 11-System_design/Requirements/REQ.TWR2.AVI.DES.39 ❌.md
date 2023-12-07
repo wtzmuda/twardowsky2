@@ -5,6 +5,7 @@ System: TWR2.AVI
 Class:
   - Requirement
 ConflictingWith: "[[REQ.TWR2.AVI.DES.20   ]]"
+Conflicting With: 11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md
 ---
 
 ## Description
@@ -17,6 +18,7 @@ EuRoC Design, Test & Evaluation Guide; Version 4.1. -Szymon Życiński
 
 # Conflict
 
-YES - the given requirement states that RF devices must employ "RF windows" in the airframe shell plating for antennas mounted inside the airframe. However, the compared requirement states that RF transmitters, receivers or transceivers are not allowed to be mounted externally, and should have "RF Window" for antennas mounted internally or two-sided antenna mounted externally to provide 360 coverage. The conflicting point here is about the use of external antennas - the first requirement allows them, the second does not. - [[REQ.TWR2.AVI.DES.20   ]]
 
-Resolution: The requirements would need to be revised for alignment about the use of externally mounted antennas. An agreement about whether they could be used or not, and if used, under what conditions, is required.
+YES - The given requirement suggests that any RF devices should not have antennas mounted externally on the airframe, but should have "RF windows" for antennas mounted internally. On the other hand, the requirement to compare suggests that RF antennas should either have "RF windows" for internal mounting or be mounted externally for 360-degree coverage, which contradicts the first requirement - [[11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md]]
+
+The conflict can be resolved by aligning both requirements to allow for both internal and external mounting while ensuring that both conditions meet the 360-degree coverage requirement.
