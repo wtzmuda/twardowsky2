@@ -18,6 +18,4 @@ EuRoC Design, Test & Evaluation Guide; Version 4.6
 
 # Conflict
 
-YES - There is a conflict between the stipulation in the main requirement that RF antennas should not be mounted externally and the part in the comparative requirement that states that these antennas can be mounted externally on the airframe. - [[Requirements/REQ.TWR2.AVI.DES.39 ❌.md]]
-
-A potential resolution could be to revise the comparative requirement to explicitly rule out external antenna mounting, in line with the main requirement. Alternatively, the main requirement could be altered to allow for external antenna mounting under certain conditions, if this is deemed suitable.
+YES - The conflict lies in the location of the RF transmitters/receivers. The first requirement states that these devices cannot be mounted externally, yet the second requirement implies that an internal device should employ "RF windows" only if antennas are not mounted externally. This suggests the second requirement may allow for external mounting. A possible resolution could be refining the language in both requirements to ensure a clear consensus on the location of these devices. - [[Requirements/REQ.TWR2.AVI.DES.39 ❌.md]]

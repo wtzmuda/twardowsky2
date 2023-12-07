@@ -55,7 +55,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-System_design/Propulsion/Propulsion.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ec7eee2dbfa39f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.39 ❌.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11-System_design/Propulsion/Propulsion.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.39 ❌.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11-System_design/Propulsion/Propulsion.md",
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.39 ❌.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-System_design/Propulsion/Propulsion.md"
+                "file": "11-System_design/Requirements/REQ.TWR2.AVI.DES.39 ❌.md"
               }
             }
           }
@@ -204,10 +216,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "8496e7b11c880a44",
+  "active": "3ec7eee2dbfa39f8",
   "lastOpenFiles": [
-    "11-System_design/Payload/Control Board/Control Board.md",
+    "11-System_design/Requirements/REQ.TWR2.AVI.DES.20 ❌.md",
+    "11-System_design/Requirements/REQ.TWR2.PROP.DES.11 .md",
     "11-System_design/Propulsion/Propulsion.md",
+    "11-System_design/Payload/Control Board/Control Board.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer tank.md",
     "11-System_design/System Diagram.canvas",
     "11-System_design/Requirements/REQ.TWR2.PROP.VER.4 .md",
@@ -232,7 +246,6 @@
     "12-Interfaces/in.elko.md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Vent/Oxidizer Tank Vent.md",
     "69-Obsidian/File index template.md",
-    "11-System_design/Requirements/REQ.TWR2.PROP.DES.11 .md",
     "11-System_design/Propulsion/Oxidizer tank/Oxidizer Tank Sensors/Oxidizer Tank Sensors.md",
     "11-System_design/Recovery/Recovery.md",
     "03-Design_documentation/04-Propulsion/Thermal_insulation_analysis.pdf",
