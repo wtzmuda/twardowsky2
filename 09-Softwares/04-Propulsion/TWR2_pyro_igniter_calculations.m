@@ -50,9 +50,10 @@ Results.temperature2(1)=temperature2;
 Results.molar_mass2(1)=8314/gas_constant2;
 Results.kappa2(1)=kappa2;
 
+
 for i=2:max_time/dt
     Results.pressure1(i)=Results.pressure1(i-1)+Results.dPdt(i-1)*dt;
-    Results.burn_rate(i)=burn_coefficient*Results.pressure1(1)^burn_expo;
+    Results.burn_rate(i)=burn_coefficient*Results.pressure1(i)^burn_expo;
     Results.combustion_jump(i)=Results.burn_rate(i)*dt;
     Results.dVdt(i)=burn_surface*Results.burn_rate(i);
     Results.produced_mass_flow_rate(i)=Results.dVdt(i)*dt*fuel_density;
