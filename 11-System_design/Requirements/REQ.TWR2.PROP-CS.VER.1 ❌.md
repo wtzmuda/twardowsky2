@@ -3,7 +3,7 @@ Title: REQ.TWR2.PROP-CS.VER.1
 Status: conflict
 System: TWR2.PROP-CS
 Class: Requirement
-Conflicting With: Requirements/REQ.TWR2.AVI.DES.33  ❌.md
+Conflicting With: 11-System_design/Requirements/REQ.TWR2.PROP.VER.7 ❌.md
 ---
 
 ## Description
@@ -23,4 +23,8 @@ To resolve this conflict, both tests need to be done for the same duration. For 
 
 YES - The third requirement indicates that the pressure test should be held for a time period that is twice the size of what is mentioned in the primary requirement. The requirements conflict as they request different durations for the pressure tests. These requirements need to be harmonized to have a single source of truth. - [[11-System_design/Requirements/REQ.TWR2.PROP.VER.7 ❌.md]] 
 
-NO - The conditions mentioned in the leakage test requirement do not seem to conflict with the main requirement as they are meant for different tests altogether. - [[11-System_design/Requirements/REQ.TWR2.PROP-CS.VER.2 .md]]YES - The time defined for pressure proof test conditions in the given requirement (180 minutes) conflicts with the time defined for tank pressurization in the last requirement (max 90 minutes) in [[Requirements/REQ.TWR2.AVI.DES.33  ❌.md]]. A possible way to resolve this is to align the time durations in both requirements.
+NO - The conditions mentioned in the leakage test requirement do not seem to conflict with the main requirement as they are meant for different tests altogether. - [[11-System_design/Requirements/REQ.TWR2.PROP-CS.VER.2 .md]]YES - The time defined for pressure proof test conditions in the given requirement (180 minutes) conflicts with the time defined for tank pressurization in the last requirement (max 90 minutes) in [[Requirements/REQ.TWR2.AVI.DES.33  ❌.md]]. A possible way to resolve this is to align the time durations in both requirements.YES - The first conflict arises in the duration specified for the pressure test. In the given requirement, the test is noted to be 180mins long, but in the other requirement it is stated that the maximum system working time (which should define the test duration) is 90mins [[11-System_design/Requirements/REQ.TWR2.PROP.VER.7 ❌.md]]. 
+
+Additionally, a potential conflict with the pressure sensor's drift value is noted. In the given requirement, the allowable pressure drop is less than 0.5 bar for 180 mins, however, the sensor drift could be as much as 0.5 bar in the same duration [[Requirements/REQ.TWR2.AVI.DES.33  ❌.md]]. This means the system might not detect an actual pressure drop if it's within the same range as the sensor's drift.
+
+To resolve these, it is advisable to align all pressure drop and duration requirements to be consistent, as well as ensure that the sensor drift does not exceed the maximum allowable pressure drop.
