@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.REC.CONF.4
-Status: accepted
+Status: in-review
 System: TWR2.REC
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description

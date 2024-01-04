@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.ROCKET.DES.48
-Status: accepted
+Status: in-review
 System: TWR2.ROCKET
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description

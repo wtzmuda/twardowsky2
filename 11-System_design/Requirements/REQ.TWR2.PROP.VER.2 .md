@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.PROP.VER.2
-Status: accepted
+Status: in-review
 System: TWR2.PROP
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description

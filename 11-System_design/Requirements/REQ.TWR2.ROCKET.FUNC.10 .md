@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.ROCKET.FUNC.10
-Status: accepted
+Status: in-review
 System: TWR2.ROCKET
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description
