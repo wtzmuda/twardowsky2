@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.PROP-FEED.CONF.19
-Status: accepted
+Status: in-review
 System: TWR2.PROP-FEED
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description

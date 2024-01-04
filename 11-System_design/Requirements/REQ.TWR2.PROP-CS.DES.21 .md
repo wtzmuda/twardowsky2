@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.PROP-CS.DES.21
-Status: accepted
+Status: in-review
 System: TWR2.PROP-CS
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description

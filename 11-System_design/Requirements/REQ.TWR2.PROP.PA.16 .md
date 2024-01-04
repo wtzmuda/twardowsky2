@@ -1,8 +1,9 @@
 ---
 Title: REQ.TWR2.PROP.PA.16
-Status: accepted
+Status: in-review
 System: TWR2.PROP
 Class: Requirement
+Conflicting With: 
 ---
 
 ## Description
