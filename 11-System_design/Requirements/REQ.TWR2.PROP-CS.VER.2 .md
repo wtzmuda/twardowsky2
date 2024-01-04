@@ -1,9 +1,9 @@
 ---
 Title: REQ.TWR2.PROP-CS.VER.2
-Status: conflict
+Status: in-review
 System: TWR2.PROP-CS
 Class: Requirement
-Conflicting With: 11-System_design/Requirements/REQ.TWR2.PROP-CS.VER.1 ❌.md
+Conflicting With: 
 ---
 
 ## Description
