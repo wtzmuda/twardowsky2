@@ -1,0 +1,30 @@
+************************************************************************************** 
+ROCKET PROPULSION ANALYSIS TOOL SIMULATION OUTPUT SKA POLITECHNIKA WARSZAWSKA, 2020 
+		FILE GENERATED ON 18-Jan-2024 16:01:43 
+**************************************************************************************
+
+SIMULATION NAME: AA_A2HRM_Input
+
+INPUT DATA
+-----------  
+Fuel: 				 ABS
+Oxidizer: 			 N2O
+Oxidizer initial mass: 		3.80	 [kg]
+Oxidizer initial temperature: 	300.0	 [K]
+Tank volume: 			0.008	 [m3]
+Orifices number: 		1.000	 [-]
+Orifices diameter: 		0.0030	 [m]
+Discharge coefficient: 		0.33	 [-]
+Nozzle throat diameter: 	0.009	 [m]
+
+OUTPUT DATA
+-----------  
+Simulation time: 		15.00	 [s]
+Mean Nozzle Exit Velocity: 	2372.5	 [m/s]
+Total Impulse: 			3388.4	 [Ns]
+Maximum Thrust: 		297.4	 [N]
+Average Thrust: 		225.9	 [N]
+Maximum chamber pressure: 	0	 [Pa]
+Maximum tank pressure: 		5887330	 [Pa]
+Specific Impulse: 		2252.7	 [m/s]
+Elapsed Simulation Time: 	85.515	 [s]
