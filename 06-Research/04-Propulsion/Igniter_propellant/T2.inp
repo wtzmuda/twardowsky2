@@ -1,0 +1,16 @@
+      
+     prob           
+o/f=1.857                                                                                                               
+hp                                                                                                                      
+p,bar=10,20,30,40,50,60,70,80,90,100,110,120                                                                            
+t,k=2300                                                                                                                
+      
+     reac           
+oxid=KNO3 wt=1.0 t,k=293                                                                                                
+fuel=AL(cr) wt=0.057 t,k=293                                                                                            
+fuel=Sorbitol wt=0.943 t,k=273 h,kj/mol=-1353.70 C 6 H 14 O 6                                                           
+      
+     outp           
+short plot t m mw gam                                                                                                   
+      
+     end            
