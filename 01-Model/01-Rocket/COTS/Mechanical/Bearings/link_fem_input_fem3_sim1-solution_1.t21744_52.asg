@@ -1,0 +1,33 @@
+Nastran BUFFSIZE=32769 $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=2124152832 $(Memory limit for MPI and other specialized modules)
+JID='C:\Users\nelek\OneDrive - Politechnika Warszawska\Praca_In¿ynierska\Model\COTS\Mechanical\Bearings\link_fem_input_fem3_sim1-solution_1.dat'
+OUT='./link_fem_input_fem3_sim1-solution_1'
+MEM=956575744
+MACH='Intel64 Family 6 Model 140 Stepping 1'
+OPER='Windows 10'
+OSV=' '
+MODEL='11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (SussySurface)'
+CONFIG=8666
+NPROC=8
+symbol=DELDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/nelek/appdata/local/temp/link_fem_input_fem3_sim1-solution_1.T21744_52'
+DBS='c:/users/nelek/appdata/local/temp/link_fem_input_fem3_sim1-solution_1.T21744_52'
+SCR=yes
+SMEM=20.0X
+NEWDEL='c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='28000@licenses4.meil.pw.edu.pl,28000@license02.ci.pw.edu.pl'
+AUTHQUE=0
+MSGCAT='c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='c:/program files/siemens/nx2007/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+USOLLIB='libusol.dll'

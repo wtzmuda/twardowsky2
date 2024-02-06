@@ -1,0 +1,79 @@
+
+*** 22:06:46 *** 
+Starting Nastran Exporter
+
+*** 22:06:46 *** 
+Writing file C:\Users\nelek\OneDrive - Politechnika 
+Warszawska\Praca_In¿ynierska\Model\COTS\Mechanical\Bearings\link_fem_input_fem3_sim1-solution_2.dat
+ 
+*** 22:06:46 *** 
+Writing SIMCENTER NASTRAN 2022.1 compatible deck
+
+*** 22:06:46 *** 
+Writing Nastran System section
+
+*** 22:06:46 *** 
+Writing File Management section
+
+*** 22:06:46 *** 
+Writing Executive Control section
+
+*** 22:06:46 *** 
+Writing Case Control section
+
+*** 22:06:46 *** 
+WARNING : No subcase selected for Static Subcase For Buckling in step Subcase - 
+          Buckling Method. The STATSUB command will reference the first static 
+          subcase detected
+ 
+*** 22:06:46 *** 
+Writing Bulk Data section
+
+*** 22:06:46 *** 
+Writing Nodes
+
+*** 22:06:46 *** 
+Writing Elements
+
+*** 22:06:46 *** 
+Writing Physical Properties
+
+*** 22:06:46 *** 
+Writing Materials
+
+*** 22:06:46 *** 
+Writing Degree-of-Freedom Sets
+
+*** 22:06:46 *** 
+Writing Loads and Constraints
+
+*** 22:06:47 *** 
+Writing Coordinate Systems
+
+*** 22:06:47 *** 
+Validating Solution Setup
+
+*** 22:06:47 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CHEXA    | 11952    |
+| EIGRL    | 1        |
+| FORCE    | 593      |
+| GRID     | 60498    |
+| MAT1     | 1        |
+| MATT1    | 1        |
+| PARAM    | 6        |
+| PSOLID   | 1        |
+| SPC      | 1140     |
+| TABLEM1  | 3        |
++----------+----------+
+
+*** 22:06:47 *** 
+1 warning issued
+
+*** 22:06:47 *** 
+Nastran Deck Successfully Written
+

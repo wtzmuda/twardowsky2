@@ -1,0 +1,70 @@
+
+*** 00:23:18 *** 
+Starting Nastran Exporter
+
+*** 00:23:18 *** 
+Writing file F:\OneDrive - Politechnika 
+Warszawska\Praca_In¿ynierska\Model\TWR.2A.2.00.00.000_Payload_module\TWR.2A.2.02.00.000_Ejection_Mechanism\TWR.2A.2.02.05.000_Thermal_HDRM\model1_sim1-solution_1.dat
+ 
+*** 00:23:18 *** 
+Writing SIMCENTER NASTRAN 2022.1 compatible deck
+
+*** 00:23:18 *** 
+Writing Nastran System section
+
+*** 00:23:18 *** 
+Writing File Management section
+
+*** 00:23:18 *** 
+Writing Executive Control section
+
+*** 00:23:18 *** 
+Writing Case Control section
+
+*** 00:23:18 *** 
+Writing Bulk Data section
+
+*** 00:23:18 *** 
+Writing Nodes
+
+*** 00:23:21 *** 
+Writing Elements
+
+*** 00:23:21 *** 
+Writing Physical Properties
+
+*** 00:23:21 *** 
+Writing Materials
+
+*** 00:23:21 *** 
+Writing Degree-of-Freedom Sets
+
+*** 00:23:21 *** 
+Writing Loads and Constraints
+
+*** 00:23:21 *** 
+Writing Coordinate Systems
+
+*** 00:23:21 *** 
+Validating Solution Setup
+
+*** 00:23:21 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CQUAD8   | 3525     |
+| FORCE    | 29       |
+| GRID     | 10820    |
+| MAT1     | 1        |
+| MATT1    | 1        |
+| PARAM    | 6        |
+| PSHELL   | 1        |
+| SPC      | 3329     |
+| TABLEM1  | 3        |
++----------+----------+
+
+*** 00:23:21 *** 
+Nastran Deck Successfully Written
+

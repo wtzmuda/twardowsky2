@@ -1,0 +1,118 @@
+Simcenter Nastran 2022.1 (AMD64 Family 23 Model 113 Stepping 0 Windows 10  ) Control File:
+--------------------------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=2138570752 $(Memory limit for MPI and other specialized modules)
+JID='F:\OneDrive - Politechnika Warszawska\Praca_In¿ynierska\Model\TWR.2A.2.00.00.000_Payload_module\TWR.2A.2.02.00.000_Ejection_Mechanism\TWR.2A.2.02.05.000_Thermal_HDRM\model1_sim1-solution_1.dat'
+OUT='./model1_sim1-solution_1'
+MEM=963063808
+MACH='AMD64 Family 23 Model 113 Stepping 0'
+OPER='Windows 10'
+OSV=' '
+MODEL='AMD Ryzen 5 3600X 6-Core Processor (DESKTOP-I8NEHTB)'
+CONFIG=8666
+NPROC=12
+symbol=DELDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/kornel/appdata/local/temp/model1_sim1-solution_1.T10132_21'
+DBS='c:/users/kornel/appdata/local/temp/model1_sim1-solution_1.T10132_21'
+SCR=yes
+SMEM=20.0X
+NEWDEL='c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='28000@licenses4.meil.pw.edu.pl,28000@license02.ci.pw.edu.pl'
+AUTHQUE=0
+MSGCAT='c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='c:/program files/siemens/nx2007/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+USOLLIB='libusol.dll'
+--------------------------------------------------------------------------------------
+NXN_ISHELLPATH=C:\Program Files\Siemens\NX2007\nxnastran\bin
+NXN_JIDPATH=
+PATH=c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/sysnoise;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/softwareanalytics;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/samcef;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/impi/bin;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/monitor;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Siemens\NX2007\nxbin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Siemens\NX1926\CAPITALINTEGRATION\capitalnxremote\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Siemens\NX2007\CAPITALINTEGRATION\capitalnxremote\;C:\Program Files\Git\cmd;C:\Users\Kornel\AppData\Local\Microsoft\WindowsApps;C:\Users\Kornel\AppData\Local\GitHubDesktop\bin;C:\Users\Kornel\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Kornel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kornel\AppData\Local\Pandoc\
+Command Line: model1_sim1-solution_1.dat prog=bundle old=no scratch=yes sys442=2
+Current Dir: F:\OneDrive - Politechnika Warszawska\Praca_In¿ynierska\Model\TWR.2A.2.00.00.000_Payload_module\TWR.2A.2.02.00.000_Ejection_Mechanism\TWR.2A.2.02.05.000_Thermal_HDRM
+Executable:  c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+--------------------------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                    16328 MB
+ Physical memory available:           7534 MB
+ Paging file size:                   19144 MB
+ Paging file size available:          7156 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213565 MB
+--------------------------------------------------------------------------------------
+System configuration:
+ Hostname:         DESKTOP-I8NEHTB
+ Architecture:     em64tnt
+ Platform:         AMD64 Family 23 Model 113 Stepping 0 Windows 10  
+ Model:            AMD Ryzen 5 3600X 6-Core Processor
+ Clock freq.:      3793 MHz
+ Number of CPUs:   12
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  16328 MB
+ Virtual memory:   19144 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: Remote capabilities not available.
+--------------------------------------------------------------------------------------
+Simcenter Nastran started  Thu Nov 16 00:23:21 Œcs 2023
+ 00:23:21  Beginning Analysis
+
+ 00:23:21  Simcenter NASTRAN Authorization Information - System Attributes
+ 00:23:21  --------------------------------------------------------
+ 00:23:21  Model: AMD Ryzen 5 3600X 6-Core Process
+ 00:23:21  Machine: AMD64 Family 23 Model 113 Steppi
+ 00:23:21  OS: Windows 10
+ 00:23:21  Version:
+ 00:23:21  License File(s): 28000@licenses4.meil.pw.edu.pl,28000@license02.ci.pw.edu.pl
+
+
+ 00:23:22  Simcenter NASTRAN Licensing Information
+ 00:23:22  --------------------------------------
+ 00:23:22  Sold To ID:            1762771 - Politechnika Warszaws
+ 00:23:22  Webkey Access Code:    70673IXFDR
+ 00:23:22  License File Issuer:   SIEMENS
+
+
+ 00:23:22  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 00:23:22  -----------------------------------------------------------------
+ 00:23:22  License for module Simcenter Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 00:23:22  Loading Shared Library C:\Program Files\Siemens\NX2007\nxcae_extras\tmg\exe\mayamoncomm.dll
+
+Starting viewer with UGII_MONITOR_DIR set to 'C:\Program Files\Siemens\NX2007\nxcae_extras\tmg\exe'
+Starting monitor viewer at C:\Program Files\Siemens\NX2007\nxcae_extras\tmg\exe/xcsmon_viewer.exe
+ 00:23:23  Viewer API version is:    11
+ 00:23:23  Viewer API minor version is:     6
+ 00:23:23  Monitor Version Info: Simcenter 3D Simulation Control Monitor 2022.1.1 Dec 07 2021 (Version 2007.168009)
+
+ 00:23:23  Analysis started.
+ 00:23:23  Geometry access/verification to CAD part initiated (if needed).
+ 00:23:23  Geometry access/verification to CAD part successfully completed (if needed).
+ 00:23:23  Finite element model generation started.
+ 00:23:24  Finite element model generated 64920 degrees of freedom.
+ 00:23:24  Finite element model generation successfully completed.
+ 00:23:24  Application of Loads and Boundary Conditions to the finite element model started.
+ 00:23:24  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 00:23:25  Solution of the system equations for linear statics started.
+ 00:23:25  Solution of the system equations for linear statics successfully completed.
+ 00:23:26  Linear static analysis completed.
+ 00:23:29  NSEXIT: EXIT(0)
+ 00:23:30  Analysis complete  0
+Real:        9.268 seconds ( 0:00:09.268)
+User:        1.828 seconds ( 0:00:01.828)
+Sys:         0.296 seconds ( 0:00:00.296)
+Simcenter Nastran finished Thu Nov 16 00:23:30 Œcs 2023

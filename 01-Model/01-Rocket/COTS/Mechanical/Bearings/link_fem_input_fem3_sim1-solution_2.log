@@ -1,0 +1,117 @@
+Simcenter Nastran 2022.1 (Intel64 Family 6 Model 140 Stepping 1 Windows 10  ) Control File:
+--------------------------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx2007/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=2124152832 $(Memory limit for MPI and other specialized modules)
+JID='C:\Users\nelek\OneDrive - Politechnika Warszawska\Praca_In¿ynierska\Model\COTS\Mechanical\Bearings\link_fem_input_fem3_sim1-solution_2.dat'
+OUT='./link_fem_input_fem3_sim1-solution_2'
+MEM=956575744
+MACH='Intel64 Family 6 Model 140 Stepping 1'
+OPER='Windows 10'
+OSV=' '
+MODEL='11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (SussySurface)'
+CONFIG=8666
+NPROC=8
+symbol=DELDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/siemens/nx2007/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/nelek/appdata/local/temp/link_fem_input_fem3_sim1-solution_2.T15440_47'
+DBS='c:/users/nelek/appdata/local/temp/link_fem_input_fem3_sim1-solution_2.T15440_47'
+SCR=yes
+SMEM=20.0X
+NEWDEL='c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='28000@licenses4.meil.pw.edu.pl,28000@license02.ci.pw.edu.pl'
+AUTHQUE=0
+MSGCAT='c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='c:/program files/siemens/nx2007/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+USOLLIB='libusol.dll'
+--------------------------------------------------------------------------------------
+NXN_ISHELLPATH=C:\Program Files\Siemens\NX2007\nxnastran\bin
+NXN_JIDPATH=
+PATH=c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/sysnoise;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/softwareanalytics;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/samcef;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/impi/bin;c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/monitor;C:\Program Files\Siemens\NX2007\nxbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\Siemens\NX2007\CAPITALINTEGRATION\capitalnxremote\;C:\Program Files\Git\cmd;C:\Users\nelek\AppData\Local\Microsoft\WindowsApps;C:\Users\nelek\AppData\Local\GitHubDesktop\bin;C:\Users\nelek\AppData\Local\Programs\Microsoft VS Code\bin;
+Command Line: link_fem_input_fem3_sim1-solution_2.dat prog=bundle old=no scratch=yes sys442=2
+Current Dir: C:\Users\nelek\OneDrive - Politechnika Warszawska\Praca_In¿ynierska\Model\COTS\Mechanical\Bearings
+Executable:  c:/program files/siemens/nx2007/nxnastran/scnas/em64tntl/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+--------------------------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                    16218 MB
+ Physical memory available:           6843 MB
+ Paging file size:                   25241 MB
+ Paging file size available:          5269 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213550 MB
+--------------------------------------------------------------------------------------
+System configuration:
+ Hostname:         SussySurface
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 140 Stepping 1 Windows 10  
+ Model:            11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+ Clock freq.:      2419 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  16218 MB
+ Virtual memory:   25687 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: Remote capabilities not available.
+--------------------------------------------------------------------------------------
+Simcenter Nastran started  Sat Dec 23 22:06:47 Œcs 2023
+ 22:06:47  Beginning Analysis
+
+ 22:06:47  Simcenter NASTRAN Authorization Information - System Attributes
+ 22:06:47  --------------------------------------------------------
+ 22:06:47  Model: 11th Gen Intel(R) Core(TM) i5-11
+ 22:06:47  Machine: Intel64 Family 6 Model 140 Stepp
+ 22:06:47  OS: Windows 10
+ 22:06:47  Version:
+ 22:06:47  License File(s): 28000@licenses4.meil.pw.edu.pl,28000@license02.ci.pw.edu.pl
+
+
+ 22:06:48  Simcenter NASTRAN Licensing Information
+ 22:06:48  --------------------------------------
+ 22:06:48  Sold To ID:            1762771 - Politechnika Warszaws
+ 22:06:48  Webkey Access Code:    IINU6T6PV7
+ 22:06:48  License File Issuer:   SIEMENS
+
+
+ 22:06:48  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 22:06:48  -----------------------------------------------------------------
+ 22:06:48  License for module Simcenter Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 22:06:48  Loading Shared Library C:\Program Files\Siemens\NX2007\nxcae_extras\tmg\exe\mayamoncomm.dll
+
+Starting viewer with UGII_MONITOR_DIR set to 'C:\Program Files\Siemens\NX2007\nxcae_extras\tmg\exe'
+Starting monitor viewer at C:\Program Files\Siemens\NX2007\nxcae_extras\tmg\exe/xcsmon_viewer.exe
+ 22:06:49  Viewer API version is:    11
+ 22:06:49  Viewer API minor version is:     6
+ 22:06:49  Monitor Version Info: Simcenter 3D Simulation Control Monitor 2022.1.1 Dec 07 2021 (Version 2007.168009)
+
+ 22:06:50  Analysis started.
+ 22:06:50  Geometry access/verification to CAD part initiated (if needed).
+ 22:06:50  Geometry access/verification to CAD part successfully completed (if needed).
+ 22:06:51  Finite element model generation started.
+ 22:06:57  Finite element model generated 362988 degrees of freedom.
+ 22:06:57  Finite element model generation successfully completed.
+ 22:06:57  Application of Loads and Boundary Conditions to the finite element model started.
+ 22:06:57  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 22:06:57  Application of Loads and Boundary Conditions to the finite element model started.
+ 22:06:57  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 22:07:11  NSEXIT: EXIT(0)
+ 22:07:15  Analysis complete  0
+Real:       27.633 seconds ( 0:00:27.633)
+User:        9.843 seconds ( 0:00:09.843)
+Sys:         0.531 seconds ( 0:00:00.531)
+Simcenter Nastran finished Sat Dec 23 22:07:15 Œcs 2023
